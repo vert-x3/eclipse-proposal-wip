@@ -1,0 +1,335 @@
+== Eclipse / Vert.x Release Mapping
+
+This document is a working draft between the Vert.x community and the Eclipse foundation.
+
+The intent of this document is to define on how the development of the Vert.x stack could be done at Eclipse. It is not
+an agreement per se, it is a study gathering facts for a future agreement between the Vert.x community and Eclipse.
+
+This document will be developed in a GitHub repository of the Vert.x GitHub organization and use its issue tracker and
+ social features for enabling collaboration between the community and Eclipse. Do not edit the document directly, but use pull requests.
+
+The initial document has been created by the Vert.x core team based on its experience on developing and scaling Vert.x
+from a single Vert.x Core + the Hazelcast cluster manager project to a Vert.x stack composed of many modules. The Vert.x core team does not represent the Vert.x community, nevertheless it is active part of it.
+
+=== Synopsis
+
+In order to conform to Eclipse project guidelines, it is proposed to migrate the whole Vert.x
+official stack to the Eclipse foundation. To achieve this, the following process is proposed:
+
+* Each existing Vert.x module stays in its own repository and is moved to a Github organization owned by Eclipse. This repository shall be co-managed by Eclipse and a defined number of the Vert.x/Eclipse team. Each repository has its own _committer_ team.
+* The migration to this model is done step by step (starting from the modules composing the _min_ stack)
+* During the migration no renaming of the artifact or in the source code should be required (artifact coordinates and packages stay the same).
+* Once migrated all modifications on the Eclipse module will follow the Eclipse development process. This includes the IP clearance of all new dependencies and for all major or minor dependency updates. It also includes the _renaming_ to Eclipse Vert.x for the main occurrences.
+
+This migration is going to introduce some overhead. But, this overhead seems to not be unbearable, and should be almost transparent.
+
+The migration process of the entire stack would take around 12 months and will be done in the following proposed order:
+
+* module composing the min stack
+* metrics, web, authentication and data
+* integration and devops modules
+* remaining modules
+
+That does not preclude that new modules to be added during the process. This order is likely going to change when the migration will be implemented.
+
+=== Organization
+
+Part of the developers will be Eclipse committers, until now the set of committers has been two active persons
+to manage the Eclipse process (there could have been more obviously). This set is expected to grow to contain more persons
+that would form the _Vert.x Eclipse team_, of course not all Vert.x community shall become Eclipse committers, but people
+ having an active role in the development should be, for instance a module maintainer should become Eclipse committer.
+
+They will be refer to _Vert.x Eclipse team_ in this document.
+
+=== Objectives
+
+One major goal is to remain as close as possible to the current Vert.x software development process that has been used by
+   Vert.x team for years.
+
+The objectives of this documents threefold:
+
+1. finding a mapping between the Eclipse project organization and the current Vert.x project organization
+2. finding a mapping between the Eclipse release process and the Vert.x release process
+3. proposing a step by step migration of the vert.x full stack to the Eclipse foundation
+
+'''
+
+=== Todo (this doc)
+
+A list of tasks to do for this doc:
+
+- for downloads, need to be able to have a server that serves an dynamically assembled binary
+
+'''
+
+=== Vert.x Modules
+
+The Vert.x project is a modular project. Each module has its own git repository and a set of contributors. Only
+https://github.com/eclipse/vert.x[Vert.x Core] is an Eclipse project, and follows the Eclipse guideline.
+ 
+Each module could evolve independently. However, a group of modules, stamped as _official stack_, are released together in a single release process. During this release process, each module is released independently, and produce a set of artifacts including a zip of the sources (`-sources.jar` file), the documentation (`-doc.zip` file), the main jar file and sometimes extra artifacts like a JavaScript resource, a Docker image, an archive, or a _shaded_ jar. Obviously, a tag in the module’s git repository is created, and the released artifacts are generated from this tag.
+ 
+All released artifacts are available from Maven Central, under the `io.vertx` groupId.
+ 
+In addition to these modules, two Maven projects are released independently of the main release process. These projects are providing the parent `pom.xml` used by all the other projects. These `pom` contains little knowledge of the functionnal Vert.x bits, they contain common configuration of properties, versions and plugins for building the Vert.x modules. They are released when needed and independently of the stack.
+
+None of this is expected to have to change. It should continue as is, other Eclipse projects releases artifacts to Maven too.
+
+=== Vert.x Official Stack
+
+The Vert.x official stack is a set of modules that are released together and considered production-ready. These
+modules are not necessary packaged in a distribution, but are available from Maven Central.
+
+=== Vert.x as libraries
+
+Vert.x is foremost designed to be embedded as a Java library and can be used out of the box with the artifacts available
+from Maven Central. This model has been used by Vert.x from the beginning, although the earlier versions (1 and 2) were
+not promoting it actively. Since Vert.x 3, this model has been promoted, and has become the main way to consume vert.x.
+
+Many of the Vert.x users use their dependency manager (Apache Maven, Gradle, Ivy, NPM…) to retrieve the module they need
+and package their application.
+
+=== Vert.x Distributions
+
+During the release process, two main distributions are created. A distribution is a coherent set of modules
+from the official stack. Notice that the mechanism to create these distributions has been changed since _Vert.x 3.2_, and
+before more distributions were created.
+ 
+A distribution contains the set of selected modules, a set of platform dependant scripts to launch a Vert.x application,
+and two configuration files (to configure the clustering and the logging). A JSON file is also provided that lets
+the user configure the content of the distribution.
+ 
+The _min_ distribution is not a minimal distribution, but the _minimal polyglot_ distribution. The min contains
+the following modules:
+ 
+- _vertx-core_ and its dependencies (Netty, Jackson)
+- _vertx-lang-groovy_ - the Groovy support and its dependencies (Groovy)
+- _vertx-lang-ruby_ - the Ruby support and its dependencies (JRuby)
+- _vertx-lang-js_ - the JavaScript support (no dependencies as Nashorn is provided by the JVM)
+- _vertx-lang-ceylon_ - the Ceylon support and its dependencies (Ceylon)
+- _vertx-service-proxy_ - a way to load verticles from _service_ files
+- _vertx-hazelcast_ - the default clustering manager and its dependencies (Hazelcast)
+- _vertx-stack-manager_ - the tool to manage the content of the stack. Be aware that this artifact is a fat jar including its dependencies.
+ 
+To build these modules a couple of other Vert.x modules are required. These artifacts are not required at runtime,
+but used during the build process. These modules are:
+ 
+- the Vert.x parent pom files
+- _codegen_ - the code generator used by vert.x and its dependencies (MVEL)
+- _docgen_ - the documentation generator
+- _codetrans_ - a transpiler used to generate the example in several languages
+ 
+The full distribution contains almost all artifacts from the official stack except artifact requiring specific runtime
+capabilities (such as _vertx-jca_ requiring a JavaEE(TM) server). All the artifacts from the full
+distribution are not listed, they are in the JSON files mentioned above.
+ 
+Again, the provided distribution are not required to use vert.x, and they are not the preferred way. On this aspect, Vert.x core is perfectly usable alone without being packaged in its own distribution.
+
+=== Approach
+
+Unlike what was proposed by Eclipse (migrating the _min_ distribution to Eclipse), a different approach is proposed:
+migrating all projects from the official stack to Eclipse. Notice they are refered as stack and not as distributions.
+ 
+Moving only the _min_ distribution to Eclipse would split the Vert.x ecosystems: the Eclipse Vert.x and the modules
+powered by Eclipse Vert.x. To avoid this distinction, the whole official stack to Eclipse can be migrated to Eclipse.
+ 
+Obviously, this cannot be done in one big step and numerous (technical) issues need to be discussed and resolved first.
+
+Parts of these issues are listed below.
+ 
+The modules that are not part of the official stack won’t be migrated for now. They are considered as incubating and not
+production ready. If one of these projects become mature and is integrated to the official stack, it would be
+donated to the Eclipse foundation to be part of the Eclipse Vert.x project.
+
+=== Migration - Proposed scheduled steps
+
+This schedule does not refer to exact dates but give an idea of the process. The process would start on the agreement
+day, i.e. when all requirements from Vert.x and from Eclipse would have been successfully handled in an acceptable
+way for everyone.
+ 
+However, notice that a hard requirement is the ability to release Vert.x during the migration process.
+
+==== Step 1 - Migrate the modules composing the min distribution to Eclipse
+
+This would also include build artifacts as listed above. This should be done in the 60 days following the agreement.
+
+==== Step 2 - Metrics, web, auth and data
+
+The second step includes a set of module on which a lot of Vert.x applications rely.
+ 
+Notice that these artifacts have a lot of dependencies, and their migration may take a significant amount of time for the IP clearance. This migration should be completed in the 6 months after the agreement.
+
+==== Step 3 - Integration and devops modules
+
+The third steps includes STOMP, JCA, TCP, AMQP, Vert.x Shell and all modules that are assigned to the _integration_
+or _devops_ categories in the official stack.
+ 
+Their migration should be done within 2 months after the completion of the previous step.
+
+==== Step 4 - Remaining projects
+
+The last step includes all the remaining modules.
+
+=== Migration conclusion
+
+The migration is expected to be completed in less than 12 months. The set of modules and their migration time may
+change in the future and more modules should be added to the official stack in the near future
+(vertx-hawkular-metrics, vertx-jgroups...).
+
+=== Vert.x Roadmap
+
+Roadmap defines the set of features to implement in the next releases. This roadmap is usually determined by the
+commiter team of Vert.x using a online public poll to collect feature requests in the Vert.x community.
+
+During the migration, Vert.x will continue to work and implement its roadmap. After the migration, Vert.x will continue
+to use the same process for the roadmap, Eclipse release records will be created with the content of the roadmap.
+
+=== Mapping and technical issues
+
+This section focuses on the mapping of the current Vert.x organization, process and release to the Eclipse. For some of
+the requirements the Vert.x project currently have, this section contains propositions.
+
+=== Source Repository Organization
+
+As stated above, Vert.x is a modular project and is composed by numerous git repositories (a rough estimate is around ~40
+repositories). It is not possible to merge them in a single repository. In addition, GitHub is the platform
+chosen for developing Vert.x for many years and the development of Vert.x should remain GitHub centric.
+ 
+To ease the migration and keep this set of “self-contained”, an Eclipse / Vert.x organization
+co-managed by Vert.x and Eclipse.
+ 
+Co-management would mean that, after discussion, the Eclipse Vert.x team can create new repositories, and manage them.
+Except after mistakes (typos), or an in-depth discussion, repositories cannot be deleted.
+
+=== Issues
+
+The development process would still rely on Github issues.
+ 
+In addition, as it’s done currently, developers can still use Github pull requests. The CLA verification and "signed-off-commit" check Gihub extensions would be enabled for all vert.x module migrated under Eclipse.
+
+=== Development teams
+
+Unlike other Eclipse project with a single “team”, the diversities of Vert.x requires a different model.
+
+Here is a proposal:
+ 
+- Each repository would need to have a specific team in addition to the Eclipse Vert.x team.
+This “specific” team would be restricted to committer with a valid CLA, and would have _push_ permission on the repository.
+- All members of the Vert.x core team should become Eclipse Vert.x committers. At the moment, only Julien Viet and Tim Fox are Vert.x Eclipse committers.
+
+=== Sources and artifacts
+
+The `io.vertx` groupId and package name must remain the same.
+ 
+Docker images and NPM packages should keep the same name too. Their description would be updated to “Eclipse Vert.x”.
+
+=== Development guidelines
+
+All migrated modules would follow Eclipse guidelines. This includes:
+ 
+- create a roadmap before the iteration, driven by the commiter team and the community requests
+- fill IP clearance requests for all new dependencies and major and minor dependency updates
+- all committers need to signed the CLA
+- all commits would either be _signed-off_ or made by someone from a granted team.
+
+File requirements (license, contributing guide) will be followed. Notice that most of the Vert.x modules are
+licensed under a dual licensed (Apache Software License 2.0 and EPL). This dual licensing model would be kept.
+ 
+The roadmap should be extracted (automatically if possible) from the Github issues. This aggregate all issues
+from the different repositories. It should follow the conventions used by the Vert.x team to compute the release notes.
+ 
+Notice that currently only the `vert.x-core` project follows these guidelines.
+
+=== Web Site
+
+The current http://vertx.io is the web site. Main reference to Vert.x will be replaced by
+Eclipse Vert.x. _Main_ includes:
+
+- page title
+- first reference on a page (such as a Readme file)
+
+=== The stack manager case
+
+One of the Vert.x module is the _vert.x-stack_. This project is responsible for creating the distributions listed
+above, in addition as providing different packages:
+ 
+- Docker images
+- Vert.x sockjs bridge client (NPM)
+- Docs - aggregate all the documentation resources (consumed by the web site downstream)
+ 
+This module has dependencies on all the other Vert.x projects. It also includes the stack-manager included in the min distribution.
+ 
+An immediate migration to the Eclipse foundation is not necessary possible because of the dependencies on artifacts not yet migrated.
+ 
+This module would be split in two distinct part:
+ 
+- The stack manager and the “min” distribution creation would be migrated to Eclipse in the first step
+- The full distribution, docs, docker images, NPM… would stay in the Vert.x organization until the conclusion of the migration
+ 
+This split would ensure that the distributions that are built from the Eclipse project only contain artifacts validated by
+Eclipse. The other distribution (full) would contain artifacts from Eclipse and from the Vert.x organization. Once the
+migration would be completed, all artifacts would comes from the Eclipse project.
+
+=== Distributions
+
+Following the process presented above, a release would create two distinct distributions:
+ 
+* _min_ containing only artifacts from Eclipse (and their dependencies)
+* _full_ containing artifacts from Eclipse as well as artifacts that have a planned migration
+ 
+Both distributions should still be downloadable from Bintray.
+
+The _min_ distribution would also be downloadable from the Eclipse web site.
+ 
+Once the migration would have been completed, both distribution would be downloadable from the Eclipse web site.
+
+=== NPM, WebJars, Bower and Docker
+
+NPM, WebJars, Docker and Bower follows a different release process because of the specificities of their distribution model.
+ 
+The process should not have been changed for NPM, WebJars and Docker (manual process once the release has been synced with Maven central).
+ 
+However, Bower requires a Git repository on which tags are “manually” created after the release. The tag contains an
+updated version of the vert.x event bus client (Socks) and updated metadata. It is not known yet if such a process is compatible with Eclipse guidelines.
+
+=== Continuous integration
+
+Vert.x has been using Cloudbees continuous integration since the beginning. It provides a convenient continuous integration integrated with GitHub. This should remain the same.
+
+In addition this continuous integration deploys snapshots of the forthcoming releases of the project (master, branches) to
+the https://oss.sonatype.org/content/repositories/snapshots/[Sonatype open source snapshot repository].
+
+The early adopters of the Vert.x community relies on this to consume Vert.x snapshots, this should remain the same.
+
+=== Vert.x Issues and Wiki
+
+The Vert.x GitHub organization has two special repositories created for organizational purposes: Issues and Wiki. Issues is used as an issue tracker for _global issues_ (new components, issues impacting several modules). This repository
+should be kept, but can be migrated to Eclipse immediately.
+ 
+The Wiki project hosts the Vert.x wiki. It contains mainly technical details about the projects, the process and
+organization. If possible, it should be kept as Github wikis have several technical benefits:
+ 
+- multiple of different syntaxes can be used (Markdown and Asciidoc)
+- it can be modified using Git, and so maintained offline
+- it is integrated with GitHub notificiation system
+ 
+Obviously this project could be migrated to Eclipse. It does not contain source code (just the wiki).
+
+=== Anticipated overhead
+
+From our understanding of the Eclipse process, the main overhead will come from the IP clearance step required before the
+inclusion of a new dependencies or the update to another major/minor version. This overhead is acceptable as
+soon as the IP clearance does not involve important delay on the release. The set of dependencies is frozen for
+two weeks before the release. After this date, only micro updates would be authorized. This should give enough time
+for the IP clearance.
+ 
+The planned roadmap is not an overhead if the process can be automated (or mostly automated). Like many projects, Vert.x
+has a planned roadmap. Its modular aspect makes the global roadmap a bit more complicated to extract.
+ 
+All contributors would need to signed the CLA on Eclipse. Commits need to be signed-off. This last aspect may discourage
+contributor that have forgotten to _signed-off_ a commit in a list of commit.
+
+=== Conclusion
+
+This document has described vert.x project specificities and has made a migration proposal. Some technical issues has
+been identified and, for some of them, propositions have been made.

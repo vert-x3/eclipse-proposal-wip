@@ -1,0 +1,7 @@
+== Vert.x / Eclipse mapping proposal Work In Progress
+
+This repository hosts a working document to determine how the Vert.x processes and the Eclipse processes can be mapped.
+
+This document is open for reviews.
+
+**Do not edit the document directly, but use pull requests.** So, we can discuss document updates.
