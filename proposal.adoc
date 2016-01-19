@@ -223,6 +223,10 @@ The `io.vertx` groupId and package name must remain the same.
  
 Docker images and NPM packages should keep the same name too. Their description would be updated to “Eclipse Vert.x”.
 
+=== Versionning
+
+The released artifacts would still use a _major.minor.micro_ version scheme. 
+
 === Development guidelines
 
 All migrated modules would follow Eclipse guidelines. This includes:
