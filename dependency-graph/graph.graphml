@@ -1,0 +1,3791 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.14.4-->
+  <key for="port" id="d0" yfiles.type="portgraphics"/>
+  <key for="port" id="d1" yfiles.type="portgeometry"/>
+  <key for="port" id="d2" yfiles.type="portuserdata"/>
+  <key attr.name="Vertex Label" attr.type="string" for="node" id="d3"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="Edge Label" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d9"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d10"/>
+  <key for="edge" id="d11" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d3"><![CDATA[vertx-core]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="69.7109375" x="1219.1223090277779" y="0.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="65.7109375" x="2.0" y="5.93359375">vertx-core<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d3"><![CDATA[vertx-hazelcast]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="99.083984375" x="1988.6385633680557" y="1852.9513694721254"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="95.083984375" x="2.0" y="5.93359375">vertx-hazelcast<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d3"><![CDATA[vertx-lang-groovy]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="116.181640625" x="528.3294177827381" y="268.28427124746213"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="112.181640625" x="2.0" y="5.93359375">vertx-lang-groovy<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d3"><![CDATA[vertx-lang-ruby]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="102.74609375" x="708.1245721726191" y="792.9897623235045"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="98.74609375" x="2.0" y="5.93359375">vertx-lang-ruby<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d3"><![CDATA[vertx-lang-js]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="86.333984375" x="1011.844515749008" y="268.28427124746213"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="82.333984375" x="2.0" y="5.93359375">vertx-lang-js<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d3"><![CDATA[vertx-lang-ceylon-parent]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="158.609375" x="1216.2441220238095" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="154.609375" x="2.0" y="5.93359375">vertx-lang-ceylon-parent<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d3"><![CDATA[vertx-rx]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="56.8671875" x="911.9969618055555" y="792.9897623235045"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="52.8671875" x="2.0" y="5.93359375">vertx-rx<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d3"><![CDATA[vertx-unit]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="67.44921875" x="785.4015811011905" y="2030.7626248465715"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="63.44921875" x="2.0" y="5.933593749999773">vertx-unit<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d3"><![CDATA[vertx-sql-common]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="119.421875" x="1119.5557291666667" y="1347.9633628962465"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="115.421875" x="2.0" y="5.93359375">vertx-sql-common<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d3"><![CDATA[vertx-jdbc-client]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="108.1484375" x="1089.5559399801587" y="1642.4599351121228"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="104.1484375" x="2.0" y="5.93359375">vertx-jdbc-client<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d3"><![CDATA[vertx-auth]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="70.607421875" x="1028.864543030754" y="1852.9513694721254"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="66.607421875" x="2.0" y="5.93359375">vertx-auth<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d3"><![CDATA[vertx-web-parent]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="112.736328125" x="1753.2235026041667" y="2030.7626248465715"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="108.736328125" x="2.0" y="5.933593749999773">vertx-web-parent<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="5.551115123125783E-16" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d3"><![CDATA[vertx-service-factory]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="131.990234375" x="1639.615993923611" y="792.9897623235045"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="127.990234375" x="2.0" y="5.93359375">vertx-service-factory<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d3"><![CDATA[vertx-mongo-embedded-db]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="175.935546875" x="1565.4100043402777" y="1347.9633628962465"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="171.935546875" x="2.0" y="5.93359375">vertx-mongo-embedded-db<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d3"><![CDATA[vertx-mongo]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="85.47265625" x="1370.0220052083334" y="1642.4599351121228"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="81.47265625" x="2.0" y="5.93359375">vertx-mongo<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d3"><![CDATA[vertx-shell]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="71.78515625" x="1298.607421875" y="2286.8340534179997"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="67.78515625" x="2.0" y="5.93359375">vertx-shell<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d3"><![CDATA[vertx-dropwizard-metrics]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="160.630859375" x="1025.6131417410713" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="156.630859375" x="2.0" y="5.93359375">vertx-dropwizard-metrics<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d3"><![CDATA[vertx-hawkular-metrics]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="147.34765625" x="518.1765687003968" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="143.34765625" x="2.0" y="5.93359375">vertx-hawkular-metrics<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d3"><![CDATA[vertx-reactive-streams]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="142.912109375" x="32.40426277281746" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="138.912109375" x="2.0" y="5.93359375">vertx-reactive-streams<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d3"><![CDATA[vertx-sync]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="70.578125" x="1404.853794642857" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="66.578125" x="2.0" y="5.93359375">vertx-sync<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d3"><![CDATA[vertx-maven-service-factory]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="177.107421875" x="2169.227638268849" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="173.107421875" x="2.0" y="5.93359375">vertx-maven-service-factory<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d3"><![CDATA[vertx-http-service-factory]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="162.91015625" x="1973.6385726686508" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="158.91015625" x="2.0" y="5.93359375">vertx-http-service-factory<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d3"><![CDATA[vertx-service-proxy]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="125.228515625" x="1410.181377108135" y="1347.9633628962465"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="121.228515625" x="2.0" y="5.93359375">vertx-service-proxy<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n23">
+      <data key="d3"><![CDATA[vertx-redis-client]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="111.98046875" x="695.5244481646826" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="107.98046875" x="2.0" y="5.93359375">vertx-redis-client<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n24">
+      <data key="d3"><![CDATA[vertx-bridge-common]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="139.935546875" x="295.3167503720238" y="2286.8340534179997"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="135.935546875" x="2.0" y="5.93359375">vertx-bridge-common<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n25">
+      <data key="d3"><![CDATA[vertx-stomp]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="81.330078125" x="406.84646887400794" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="77.330078125" x="2.0" y="5.93359375">vertx-stomp<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n26">
+      <data key="d3"><![CDATA[vertx-jca]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="61.021484375" x="2363.7587022569446" y="2775.6289994757003"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="57.021484375" x="2.0" y="5.93359375">vertx-jca<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n27">
+      <data key="d3"><![CDATA[vertx-mail]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="69.365234375" x="837.5054780505952" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="65.365234375" x="2.0" y="5.93359375">vertx-mail<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d3"><![CDATA[vertx-tcp-eventbus-bridge]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="166.958984375" x="205.31693638392858" y="2492.3447282282386"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="162.958984375" x="2.0" y="5.93359375">vertx-tcp-eventbus-bridge<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n29">
+      <data key="d3"><![CDATA[vertx-stack]]></data>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="74.990234375" x="1163.2435732886904" y="2775.6289994757003"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="70.990234375" x="2.0" y="5.93359375">vertx-stack<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n1" target="n0">
+      <data key="d8"><![CDATA[(vertx-hazelcast : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="24.038254310344882" ty="15.0">
+            <y:Point x="2038.1805555555557" y="268.28427124746213"/>
+            <y:Point x="1889.0384199318246" y="119.14213562373106"/>
+            <y:Point x="1292.1581677118538" y="119.14213562373106"/>
+            <y:Point x="1278.0160320881228" y="105.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n2" target="n0">
+      <data key="d8"><![CDATA[(vertx-lang-groovy : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-19.230603448275858" ty="15.0">
+            <y:Point x="586.4202380952381" y="253.28427124746213"/>
+            <y:Point x="675.5623737189692" y="164.14213562373106"/>
+            <y:Point x="1220.605038705771" y="164.14213562373106"/>
+            <y:Point x="1234.747174329502" y="150.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n3" target="n0">
+      <data key="d8"><![CDATA[(vertx-lang-ruby : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-16.826778017241395" ty="15.0">
+            <y:Point x="759.4976190476191" y="268.28427124746213"/>
+            <y:Point x="848.6397546713501" y="179.14213562373106"/>
+            <y:Point x="1223.0088641368054" y="179.14213562373106"/>
+            <y:Point x="1237.1509997605365" y="165.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n4" target="n0">
+      <data key="d8"><![CDATA[(vertx-lang-js : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-7.211476293103438" ty="15.0">
+            <y:Point x="1055.011507936508" y="253.28427124746213"/>
+            <y:Point x="1069.153643560239" y="239.14213562373106"/>
+            <y:Point x="1232.6241658609435" y="239.14213562373106"/>
+            <y:Point x="1246.7663014846744" y="225.00000000000045"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n5" target="n10">
+      <data key="d8"><![CDATA[(vertx-lang-ceylon-parent : vertx-auth)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-45.31696428571422" sy="-15.0" tx="5.8839518229167425" ty="15.0">
+            <y:Point x="1250.2318452380953" y="2448.2025926045076"/>
+            <y:Point x="1193.0054416753185" y="2390.976189041731"/>
+            <y:Point x="1084.1945165761117" y="2390.976189041731"/>
+            <y:Point x="1070.0523809523809" y="2376.8340534179997"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n5" target="n11">
+      <data key="d8"><![CDATA[(vertx-lang-ceylon-parent : vertx-web-parent)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="22.65848214285711" sy="-15.0" tx="14.092041015625" ty="15.0">
+            <y:Point x="1318.2072916666666" y="2477.3447282282386"/>
+            <y:Point x="1377.3494272903977" y="2418.202592604507"/>
+            <y:Point x="1809.5415945349991" y="2418.202592604507"/>
+            <y:Point x="1823.6837301587302" y="2404.0604569807765"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n5" target="n9">
+      <data key="d8"><![CDATA[(vertx-lang-ceylon-parent : vertx-jdbc-client)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-22.65848214285711" sy="-15.0" tx="13.5185546875" ty="15.0">
+            <y:Point x="1272.8903273809524" y="2431.865976161055"/>
+            <y:Point x="1258.7481917572213" y="2417.723840537324"/>
+            <y:Point x="1239.4524134003555" y="2417.723840537324"/>
+            <y:Point x="1197.7047619047619" y="2375.9761890417303"/>
+            <y:Point x="1197.7047619047619" y="1852.9513694721254"/>
+            <y:Point x="1157.1487134176587" y="1812.3953209850224"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n5" target="n7">
+      <data key="d8"><![CDATA[(vertx-lang-ceylon-parent : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-67.97544642857133" sy="-15.0" tx="7.494357638888914" ty="15.0">
+            <y:Point x="1227.5733630952382" y="2448.2025926045076"/>
+            <y:Point x="1185.3469595324614" y="2405.976189041731"/>
+            <y:Point x="875.6643578459532" y="2405.976189041731"/>
+            <y:Point x="861.5222222222222" y="2391.8340534179997"/>
+            <y:Point x="861.5222222222222" y="2286.8340534179997"/>
+            <y:Point x="826.6205481150794" y="2251.932379310857"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n5" target="n1">
+      <data key="d8"><![CDATA[(vertx-lang-ceylon-parent : vertx-hazelcast)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="67.97544642857133" sy="-15.0" tx="-12.385498046875" ty="15.0">
+            <y:Point x="1363.5242559523808" y="2477.3447282282386"/>
+            <y:Point x="1392.666391576112" y="2448.2025926045076"/>
+            <y:Point x="1876.460642154047" y="2448.2025926045076"/>
+            <y:Point x="1890.6027777777779" y="2434.0604569807765"/>
+            <y:Point x="1890.6027777777779" y="2096.1197677037144"/>
+            <y:Point x="1910.9599206349205" y="2075.7626248465717"/>
+            <y:Point x="1910.9599206349205" y="2030.7626248465713"/>
+            <y:Point x="1925.1020562586514" y="2016.6204892228407"/>
+            <y:Point x="2011.6529218849498" y="2016.6204892228407"/>
+            <y:Point x="2025.7950575086807" y="2002.4783535991096"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n5" target="n8">
+      <data key="d8"><![CDATA[(vertx-lang-ceylon-parent : vertx-sql-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1295.5488095238095" y="2345.976189041731"/>
+            <y:Point x="1283.607142857143" y="2334.034522375064"/>
+            <y:Point x="1283.607142857143" y="2286.8340534179997"/>
+            <y:Point x="1257.7047619047619" y="2260.9316724656187"/>
+            <y:Point x="1257.7047619047619" y="1582.4599351121228"/>
+            <y:Point x="1179.2666666666667" y="1504.0218398740276"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n5" target="n0">
+      <data key="d8"><![CDATA[(vertx-lang-ceylon-parent : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="45.31696428571422" sy="-15.0" tx="19.230603448275815" ty="15.0">
+            <y:Point x="1340.8657738095237" y="2477.3447282282386"/>
+            <y:Point x="1385.0079094332548" y="2433.202592604507"/>
+            <y:Point x="1861.460642154047" y="2433.202592604507"/>
+            <y:Point x="1875.6027777777779" y="2419.0604569807765"/>
+            <y:Point x="1875.6027777777779" y="2086.476910560857"/>
+            <y:Point x="1880.9599206349205" y="2081.1197677037144"/>
+            <y:Point x="1880.9599206349205" y="268.28427124746213"/>
+            <y:Point x="1761.8177850111895" y="149.14213562373106"/>
+            <y:Point x="1287.3505168497848" y="149.14213562373106"/>
+            <y:Point x="1273.2083812260537" y="135.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n6" target="n0">
+      <data key="d8"><![CDATA[(vertx-rx : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-9.615301724137908" ty="15.0">
+            <y:Point x="940.4305555555555" y="694.7056274847728"/>
+            <y:Point x="954.5726911792866" y="680.5634918610417"/>
+            <y:Point x="982.7023088207135" y="680.5634918610417"/>
+            <y:Point x="996.8444444444444" y="666.4213562373106"/>
+            <y:Point x="996.8444444444444" y="258.28434255202546"/>
+            <y:Point x="1030.9866513727388" y="224.14213562373106"/>
+            <y:Point x="1230.220340429909" y="224.14213562373106"/>
+            <y:Point x="1244.36247605364" y="210.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n6" target="n2">
+      <data key="d8"><![CDATA[(vertx-rx : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-18.955729166666664" sy="-15.0" tx="13.66842830882355" ty="15.0">
+            <y:Point x="921.4748263888889" y="563.1370849898485"/>
+            <y:Point x="907.3326907651578" y="548.9949493661175"/>
+            <y:Point x="614.2308020277926" y="548.9949493661175"/>
+            <y:Point x="600.0886664040617" y="534.8528137423864"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n6" target="n4">
+      <data key="d8"><![CDATA[(vertx-rx : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="18.955729166666664" sy="-15.0" tx="-9.08778782894737" ty="15.0">
+            <y:Point x="959.3862847222222" y="738.8477631085038"/>
+            <y:Point x="973.5284203459532" y="724.7056274847728"/>
+            <y:Point x="1022.1484205530169" y="724.7056274847728"/>
+            <y:Point x="1045.9237201075607" y="700.9303279302289"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n7" target="n6">
+      <data key="d8"><![CDATA[(vertx-unit : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="13.489843749999977" sy="-15.0" tx="-7.58229166666672" ty="15.0">
+            <y:Point x="832.6160342261904" y="2007.507701731492"/>
+            <y:Point x="839.3611111111111" y="2000.7626248465715"/>
+            <y:Point x="839.3611111111111" y="993.7757370258853"/>
+            <y:Point x="896.9968253968254" y="936.1400227401709"/>
+            <y:Point x="918.7061282651579" y="936.1400227401709"/>
+            <y:Point x="932.8482638888888" y="921.9978871164399"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n7" target="n0">
+      <data key="d8"><![CDATA[(vertx-unit : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-14.422952586206975" ty="15.0">
+            <y:Point x="819.1261904761905" y="1999.2525430013334"/>
+            <y:Point x="825.8710317460317" y="1992.507701731492"/>
+            <y:Point x="825.8710317460317" y="268.28427124746213"/>
+            <y:Point x="900.0131673697628" y="194.14213562373106"/>
+            <y:Point x="1225.4126895678398" y="194.14213562373106"/>
+            <y:Point x="1239.554825191571" y="180.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n7" target="n2">
+      <data key="d8"><![CDATA[(vertx-unit : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-26.979687499999955" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="792.1465029761905" y="2015.7626248465715"/>
+            <y:Point x="783.6809523809524" y="2007.2970742513335"/>
+            <y:Point x="783.6809523809524" y="1843.802163122919"/>
+            <y:Point x="758.2555555555556" y="1818.3767662975222"/>
+            <y:Point x="758.2555555555556" y="1347.9633628962465"/>
+            <y:Point x="744.1134199318248" y="1333.8212272725157"/>
+            <y:Point x="691.4210317460318" y="1333.8212272725157"/>
+            <y:Point x="676.4210317460318" y="1318.8212272725157"/>
+            <y:Point x="676.4210317460318" y="645.7107380706734"/>
+            <y:Point x="655.4443723127767" y="624.7340786374184"/>
+            <y:Point x="600.5623737189692" y="624.7340786374184"/>
+            <y:Point x="586.4202380952381" y="610.5919430136873"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n7" target="n3">
+      <data key="d8"><![CDATA[(vertx-unit : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-13.489843749999977" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="805.6363467261905" y="2015.7626248465713"/>
+            <y:Point x="797.1710317460318" y="2007.2973098664127"/>
+            <y:Point x="797.1710317460318" y="1347.9633628962465"/>
+            <y:Point x="759.4976190476191" y="1310.2899501978336"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n7" target="n4">
+      <data key="d8"><![CDATA[(vertx-unit : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="26.979687499999955" sy="-15.0" tx="-13.63168174342104" ty="15.0">
+            <y:Point x="846.1058779761904" y="2015.7626248465715"/>
+            <y:Point x="852.8511904761905" y="2009.0173123465715"/>
+            <y:Point x="852.8511904761905" y="995.285657660806"/>
+            <y:Point x="896.9968253968254" y="951.1400227401709"/>
+            <y:Point x="896.9968253968254" y="738.8477631085038"/>
+            <y:Point x="926.1389610205565" y="709.7056274847728"/>
+            <y:Point x="1022.1484205530169" y="709.7056274847728"/>
+            <y:Point x="1041.379826193087" y="690.4742218447027"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n8" target="n6">
+      <data key="d8"><![CDATA[(vertx-sql-common : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-23.88437499999999" sy="-15.0" tx="15.164583333333333" ty="15.0">
+            <y:Point x="1155.3822916666666" y="1061.9415536192998"/>
+            <y:Point x="1138.7511454192052" y="1045.3104073718384"/>
+            <y:Point x="969.7372745126198" y="1045.3104073718384"/>
+            <y:Point x="955.5951388888889" y="1031.1682717481076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n8" target="n0">
+      <data key="d8"><![CDATA[(vertx-sql-common : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="47.768749999999955" sy="-15.0" tx="2.40382543103442" ty="15.0">
+            <y:Point x="1227.0354166666666" y="1073.5946786192999"/>
+            <y:Point x="1241.1775522903974" y="1059.452542995569"/>
+            <y:Point x="1340.8796897730945" y="1059.452542995569"/>
+            <y:Point x="1355.0218253968253" y="1045.3104073718382"/>
+            <y:Point x="1355.0218253968253" y="268.28427124746213"/>
+            <y:Point x="1340.8796897730942" y="254.14213562373106"/>
+            <y:Point x="1270.5237388325431" y="254.14213562373106"/>
+            <y:Point x="1256.3816032088123" y="240.00000000000045"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n8" target="n2">
+      <data key="d8"><![CDATA[(vertx-sql-common : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="34.1710707720589" ty="15.0">
+            <y:Point x="1179.2666666666667" y="636.3169881646031"/>
+            <y:Point x="1018.6603566207189" y="475.7106781186553"/>
+            <y:Point x="634.733444491028" y="475.7106781186553"/>
+            <y:Point x="620.591308867297" y="461.56854249492426"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n8" target="n3">
+      <data key="d8"><![CDATA[(vertx-sql-common : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-47.76874999999998" sy="-15.0" tx="34.24869791666666" ty="15.0">
+            <y:Point x="1131.4979166666667" y="1235.5370397304112"/>
+            <y:Point x="1050.6464781746033" y="1154.6856012383478"/>
+            <y:Point x="807.8884525880167" y="1154.6856012383478"/>
+            <y:Point x="793.7463169642857" y="1140.5434656146167"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n8" target="n4">
+      <data key="d8"><![CDATA[(vertx-sql-common : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="23.88437500000009" sy="-15.0" tx="13.63168174342104" ty="15.0">
+            <y:Point x="1203.1511904761905" y="645.2015119741268"/>
+            <y:Point x="1068.643189679929" y="510.6935111778653"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n9" target="n3">
+      <data key="d8"><![CDATA[(vertx-jdbc-client : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-45.06184895833326" sy="-15.0" tx="27.398958333333326" ty="15.0">
+            <y:Point x="1098.5683097718254" y="1627.4599351121228"/>
+            <y:Point x="1084.4261741480946" y="1613.317799488392"/>
+            <y:Point x="1013.0064213380167" y="1613.317799488392"/>
+            <y:Point x="998.8642857142858" y="1599.1756638646611"/>
+            <y:Point x="998.8642857142858" y="1235.5370397304112"/>
+            <y:Point x="967.7690360453579" y="1204.4417900614833"/>
+            <y:Point x="801.0387130046834" y="1204.4417900614833"/>
+            <y:Point x="786.8965773809524" y="1190.2996544377525"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e25" source="n9" target="n4">
+      <data key="d8"><![CDATA[(vertx-jdbc-client : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="9.012369791666742" sy="-15.0" tx="9.087787828947285" ty="15.0">
+            <y:Point x="1152.6425285218254" y="1533.2827819202168"/>
+            <y:Point x="1120.475653314761" y="1501.1159067131525"/>
+            <y:Point x="1103.6976911792865" y="1501.1159067131525"/>
+            <y:Point x="1089.5555555555557" y="1486.9737710894217"/>
+            <y:Point x="1089.5555555555557" y="763.8476266997736"/>
+            <y:Point x="1064.0992957654553" y="738.3913669096733"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e26" source="n9" target="n8">
+      <data key="d8"><![CDATA[(vertx-jdbc-client : vertx-sql-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="45.061848958333336" sy="-15.0" tx="-23.884375000000006" ty="15.0">
+            <y:Point x="1188.692007688492" y="1539.3322610868834"/>
+            <y:Point x="1155.3822916666666" y="1506.022545065058"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e27" source="n9" target="n6">
+      <data key="d8"><![CDATA[(vertx-jdbc-client : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-27.037109375" sy="-15.0" tx="11.373437500000023" ty="15.0">
+            <y:Point x="1116.5930493551587" y="1627.4599351121228"/>
+            <y:Point x="1059.5555555555557" y="1570.4224413125198"/>
+            <y:Point x="1059.5555555555557" y="1148.5946786193"/>
+            <y:Point x="1045.4134199318248" y="1134.4525429955693"/>
+            <y:Point x="965.9461286792865" y="1134.4525429955693"/>
+            <y:Point x="951.8039930555556" y="1120.3104073718382"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e28" source="n9" target="n0">
+      <data key="d8"><![CDATA[(vertx-jdbc-client : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="27.037109375" sy="-15.0" tx="-2.40382543103442" ty="15.0">
+            <y:Point x="1170.6672681051587" y="1536.30752150355"/>
+            <y:Point x="1104.5555555555557" y="1470.195808953947"/>
+            <y:Point x="1104.5555555555557" y="951.1148175081889"/>
+            <y:Point x="1118.6976911792865" y="936.9726818844581"/>
+            <y:Point x="1237.4316739000787" y="936.9726818844581"/>
+            <y:Point x="1251.5738095238096" y="922.8305462607273"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e29" source="n9" target="n2">
+      <data key="d8"><![CDATA[(vertx-jdbc-client : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-9.012369791666742" sy="-15.0" tx="27.336856617647072" ty="15.0">
+            <y:Point x="1134.617788938492" y="1530.2580423368834"/>
+            <y:Point x="1120.475653314761" y="1516.1159067131525"/>
+            <y:Point x="1088.6976911792865" y="1516.1159067131525"/>
+            <y:Point x="1074.5555555555557" y="1501.9737710894217"/>
+            <y:Point x="1074.5555555555557" y="1030.3104073718384"/>
+            <y:Point x="1044.5555555555557" y="1000.3104073718384"/>
+            <y:Point x="1044.5555555555557" y="792.9897623235045"/>
+            <y:Point x="1005.413556340555" y="753.8477631085038"/>
+            <y:Point x="627.8992303366163" y="753.8477631085038"/>
+            <y:Point x="613.7570947128852" y="739.7056274847728"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n10" target="n4">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-7.845269097222172" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1056.3229848710318" y="1823.6419076665702"/>
+            <y:Point x="1021.7099206349206" y="1789.028843430459"/>
+            <y:Point x="1021.7099206349206" y="755.1441274028693"/>
+            <y:Point x="1055.011507936508" y="721.8425401012819"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e31" source="n10" target="n9">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-jdbc-client)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="15.690538194444443" sy="-15.0" tx="-13.5185546875" ty="15.0">
+            <y:Point x="1079.8587921626984" y="1823.6419076665702"/>
+            <y:Point x="1130.1116040426587" y="1773.3890957866097"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n10" target="n2">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-23.535807291666742" sy="-15.0" tx="20.50264246323536" ty="15.0">
+            <y:Point x="1040.6324466765873" y="1837.9513694721254"/>
+            <y:Point x="1026.4903110528562" y="1823.8092338483943"/>
+            <y:Point x="998.0064213380167" y="1823.8092338483943"/>
+            <y:Point x="983.8642857142858" y="1809.6670982246635"/>
+            <y:Point x="983.8642857142858" y="782.9898987322349"/>
+            <y:Point x="969.7221500905549" y="768.8477631085041"/>
+            <y:Point x="621.0650161822044" y="768.8477631085041"/>
+            <y:Point x="606.9228805584735" y="754.7056274847732"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e33" source="n10" target="n13">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-mongo-embedded-db)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="23.535807291666742" sy="-15.0" tx="-65.975830078125" ty="15.0">
+            <y:Point x="1087.7040612599208" y="1830.7966385693476"/>
+            <y:Point x="1179.6243179563494" y="1738.876381872919"/>
+            <y:Point x="1198.562626281031" y="1738.876381872919"/>
+            <y:Point x="1212.7047619047619" y="1724.7342462491881"/>
+            <y:Point x="1212.7047619047619" y="1642.4599351121228"/>
+            <y:Point x="1329.2733043996852" y="1525.8913926171995"/>
+            <y:Point x="1573.259812075922" y="1525.8913926171995"/>
+            <y:Point x="1587.4019476996527" y="1511.7492569934686"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e34" source="n10" target="n14">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-mongo)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="31.38107638888889" sy="-15.0" tx="-28.490885416666664" ty="15.0">
+            <y:Point x="1095.549330357143" y="1837.9513694721254"/>
+            <y:Point x="1136.1053788442462" y="1797.3953209850222"/>
+            <y:Point x="1370.1253122929359" y="1797.3953209850222"/>
+            <y:Point x="1384.2674479166667" y="1783.2531853612913"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e35" source="n10" target="n3">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-31.381076388888914" sy="-15.0" tx="13.699479166666606" ty="15.0">
+            <y:Point x="1032.787177579365" y="1727.512584335775"/>
+            <y:Point x="1018.6450419556343" y="1713.3704487120442"/>
+            <y:Point x="968.0064213380167" y="1713.3704487120442"/>
+            <y:Point x="953.8642857142858" y="1699.2283130883134"/>
+            <y:Point x="953.8642857142858" y="1642.4599351121228"/>
+            <y:Point x="939.7221500905549" y="1628.317799488392"/>
+            <y:Point x="825.0131673697626" y="1628.317799488392"/>
+            <y:Point x="810.8710317460317" y="1614.1756638646611"/>
+            <y:Point x="810.8710317460317" y="1331.6633628962463"/>
+            <y:Point x="773.1970982142857" y="1293.9894293645002"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e36" source="n10" target="n8">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-sql-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="7.845269097222172" sy="-15.0" tx="-47.768749999999955" ty="15.0">
+            <y:Point x="1072.0135230654762" y="1811.1839401566494"/>
+            <y:Point x="1074.5555555555557" y="1808.6419076665698"/>
+            <y:Point x="1074.5555555555557" y="1570.4224413125198"/>
+            <y:Point x="1088.6976911792865" y="1556.280305688789"/>
+            <y:Point x="1117.3557810429359" y="1556.280305688789"/>
+            <y:Point x="1131.4979166666667" y="1542.1381700650581"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e37" source="n10" target="n6">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-15.690538194444343" sy="-15.0" tx="7.58229166666672" ty="15.0">
+            <y:Point x="1048.4777157738097" y="1830.796638569348"/>
+            <y:Point x="1013.8642857142858" y="1796.183208509824"/>
+            <y:Point x="1013.8642857142858" y="1235.537039730411"/>
+            <y:Point x="948.0128472222223" y="1169.6856012383475"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e38" source="n10" target="n0">
+      <data key="d8"><![CDATA[(vertx-auth : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-4.807650862069067" ty="15.0">
+            <y:Point x="1064.168253968254" y="1816.4871767637921"/>
+            <y:Point x="1029.5555555555557" y="1781.8744783510938"/>
+            <y:Point x="1029.5555555555557" y="940.3104073718384"/>
+            <y:Point x="1043.6976911792865" y="926.1682717481076"/>
+            <y:Point x="1060.4134199318248" y="926.1682717481076"/>
+            <y:Point x="1074.5555555555557" y="912.0261361243768"/>
+            <y:Point x="1074.5555555555557" y="792.9897623235045"/>
+            <y:Point x="1088.6976911792865" y="778.8476266997736"/>
+            <y:Point x="1235.0277056461105" y="778.8476266997736"/>
+            <y:Point x="1249.1698412698413" y="764.7054910760428"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e39" source="n11" target="n10">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-auth)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-49.3221435546875" sy="-15.0" tx="29.41975911458333" ty="15.0">
+            <y:Point x="1760.2695231119792" y="2015.7626248465715"/>
+            <y:Point x="1716.9852518645173" y="1972.4783535991096"/>
+            <y:Point x="1107.7301487065681" y="1972.4783535991096"/>
+            <y:Point x="1093.5880130828373" y="1958.3362179753788"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e40" source="n11" target="n4">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="7.0460205078125" sy="-15.0" tx="31.807257401315837" ty="15.0">
+            <y:Point x="1816.6376871744792" y="1921.1228429964308"/>
+            <y:Point x="1820.9599206349205" y="1916.8006095359897"/>
+            <y:Point x="1820.9599206349205" y="1587.9075541597415"/>
+            <y:Point x="1821.8678571428572" y="1586.9996176518048"/>
+            <y:Point x="1821.8678571428572" y="788.2513911677509"/>
+            <y:Point x="1391.0428728462996" y="357.4264068711932"/>
+            <y:Point x="1100.960900961555" y="357.4264068711932"/>
+            <y:Point x="1086.8187653378238" y="343.28427124746213"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e41" source="n11" target="n2">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-35.2301025390625" sy="-15.0" tx="54.673713235294144" ty="15.0">
+            <y:Point x="1774.3615641276042" y="1885.4576624873782"/>
+            <y:Point x="1776.8678571428572" y="1882.9513694721252"/>
+            <y:Point x="1776.8678571428572" y="1274.6790916487848"/>
+            <y:Point x="1786.6063492063493" y="1264.9405995852928"/>
+            <y:Point x="1786.6063492063493" y="782.9898832312429"/>
+            <y:Point x="1391.0428728462996" y="387.4264068711932"/>
+            <y:Point x="655.2360869542633" y="387.4264068711932"/>
+            <y:Point x="641.0939513305323" y="373.28427124746213"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e42" source="n11" target="n22">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-service-proxy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="21.1380615234375" sy="-15.0" tx="15.653564453125" ty="15.0">
+            <y:Point x="1830.7297281901042" y="1931.8006095359892"/>
+            <y:Point x="1835.051984126984" y="1927.4783535991096"/>
+            <y:Point x="1835.051984126984" y="1796.4373123454181"/>
+            <y:Point x="1791.8678571428572" y="1753.2531853612913"/>
+            <y:Point x="1791.8678571428572" y="1642.4599351121228"/>
+            <y:Point x="1733.5835858953956" y="1584.1756638646611"/>
+            <y:Point x="1502.5913349974908" y="1584.1756638646611"/>
+            <y:Point x="1488.44919937376" y="1570.0335282409303"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e43" source="n11" target="n1">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-hazelcast)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="49.3221435546875" sy="-15.0" tx="-37.156494140625" ty="15.0">
+            <y:Point x="1858.9138102213542" y="2015.7626248465717"/>
+            <y:Point x="1873.0559458450853" y="2001.6204892228407"/>
+            <y:Point x="1986.8819257911996" y="2001.6204892228407"/>
+            <y:Point x="2001.0240614149307" y="1987.4783535991096"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e44" source="n11" target="n3">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-21.1380615234375" sy="-15.0" tx="41.098437500000045" ty="15.0">
+            <y:Point x="1788.4536051432292" y="1897.9513694721254"/>
+            <y:Point x="1790.9599206349205" y="1895.4450539804338"/>
+            <y:Point x="1790.9599206349205" y="1852.9513694721254"/>
+            <y:Point x="1706.2617365240865" y="1768.2531853612913"/>
+            <y:Point x="1369.1639610205561" y="1768.2531853612913"/>
+            <y:Point x="1355.0218253968253" y="1754.1110497375605"/>
+            <y:Point x="1355.0218253968253" y="1510.8913926171995"/>
+            <y:Point x="1310.3173520187327" y="1466.1869192391068"/>
+            <y:Point x="1283.1199134015087" y="1466.1869192391068"/>
+            <y:Point x="1268.9777777777779" y="1452.044783615376"/>
+            <y:Point x="1268.9777777777779" y="1235.5370397304112"/>
+            <y:Point x="1138.7511454192052" y="1105.3104073718384"/>
+            <y:Point x="814.7381921713501" y="1105.3104073718384"/>
+            <y:Point x="800.5960565476191" y="1091.1682717481076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e45" source="n11" target="n6">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-7.0460205078125" sy="-15.0" tx="26.53802083333335" ty="15.0">
+            <y:Point x="1802.5456461588542" y="1910.4450539804338"/>
+            <y:Point x="1806.8678571428572" y="1906.1228429964308"/>
+            <y:Point x="1806.8678571428572" y="1603.8154906676782"/>
+            <y:Point x="1667.3928081065153" y="1464.3404416313363"/>
+            <y:Point x="1372.955230861826" y="1464.3404416313363"/>
+            <y:Point x="1358.8130952380952" y="1450.1983060076054"/>
+            <y:Point x="1358.8130952380952" y="1220.3723571907285"/>
+            <y:Point x="1093.7511454192052" y="955.3104073718384"/>
+            <y:Point x="981.1107120126198" y="955.3104073718384"/>
+            <y:Point x="966.9685763888889" y="941.1682717481076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e46" source="n11" target="n0">
+      <data key="d8"><![CDATA[(vertx-web-parent : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="35.2301025390625" sy="-15.0" tx="16.826778017241395" ty="15.0">
+            <y:Point x="1844.8217692057292" y="1942.4783535991096"/>
+            <y:Point x="1850.9599206349205" y="1936.3402021699185"/>
+            <y:Point x="1850.9599206349205" y="267.37633473952565"/>
+            <y:Point x="1747.725721519126" y="164.14213562373106"/>
+            <y:Point x="1284.9466914187503" y="164.14213562373106"/>
+            <y:Point x="1270.8045557950193" y="150.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e47" source="n12" target="n0">
+      <data key="d8"><![CDATA[(vertx-service-factory : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="12.019127155172328" ty="15.0">
+            <y:Point x="1705.611111111111" y="268.28427124746213"/>
+            <y:Point x="1631.46897548738" y="194.14213562373106"/>
+            <y:Point x="1280.1390405566813" y="194.14213562373106"/>
+            <y:Point x="1265.9969049329502" y="180.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e48" source="n13" target="n12">
+      <data key="d8"><![CDATA[(vertx-mongo-embedded-db : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="43.98388671875" sy="-15.0" tx="-8.2493896484375" ty="15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e49" source="n13" target="n0">
+      <data key="d8"><![CDATA[(vertx-mongo-embedded-db : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-43.98388671875" sy="-15.0" tx="9.615301724137908" ty="15.0">
+            <y:Point x="1609.3938910590277" y="1308.8213109778728"/>
+            <y:Point x="1595.251755435297" y="1294.679175354142"/>
+            <y:Point x="1473.0345959411911" y="1294.679175354142"/>
+            <y:Point x="1458.8924603174603" y="1280.5370397304112"/>
+            <y:Point x="1458.8924603174603" y="255.68823950143042"/>
+            <y:Point x="1412.346356439761" y="209.14213562373106"/>
+            <y:Point x="1277.7352151256468" y="209.14213562373106"/>
+            <y:Point x="1263.5930795019158" y="195.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e50" source="n14" target="n22">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-service-proxy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="16.026123046875" sy="-15.0" tx="-15.653564453125" ty="15.0">
+            <y:Point x="1428.7844563802084" y="1510.8913926171995"/>
+            <y:Point x="1457.14207046751" y="1482.533778529898"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e51" source="n14" target="n13">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-mongo-embedded-db)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="37.394287109375" sy="-15.0" tx="-21.991943359375" ty="15.0">
+            <y:Point x="1450.1526204427084" y="1627.4599351121228"/>
+            <y:Point x="1464.2947560664393" y="1613.317799488392"/>
+            <y:Point x="1617.243698794672" y="1613.317799488392"/>
+            <y:Point x="1631.3858344184027" y="1599.1756638646611"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e52" source="n14" target="n3">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-37.394287109375" sy="-15.0" tx="47.94817708333335" ty="15.0">
+            <y:Point x="1375.3640462239584" y="1510.8913926171995"/>
+            <y:Point x="1313.9777777777779" y="1449.505124171019"/>
+            <y:Point x="1313.9777777777779" y="1235.5370397304112"/>
+            <y:Point x="1138.7511454192052" y="1060.3104073718384"/>
+            <y:Point x="821.5879317546834" y="1060.3104073718384"/>
+            <y:Point x="807.4457961309524" y="1046.1682717481076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e53" source="n14" target="n4">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-5.342041015625" sy="-15.0" tx="22.719469572368325" ty="15.0">
+            <y:Point x="1407.4162923177084" y="1449.3404416313363"/>
+            <y:Point x="1384.4972222222223" y="1426.42137153585"/>
+            <y:Point x="1384.4972222222223" y="742.8071663871701"/>
+            <y:Point x="1077.7309775088763" y="436.04092167382396"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e54" source="n14" target="n6">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-26.710205078125" sy="-15.0" tx="22.746875000000045" ty="15.0">
+            <y:Point x="1386.0481282552084" y="1506.5754746484495"/>
+            <y:Point x="1355.0218253968253" y="1475.5491717900663"/>
+            <y:Point x="1355.0218253968253" y="1231.5810873494584"/>
+            <y:Point x="1093.7511454192054" y="970.3104073718384"/>
+            <y:Point x="977.3195661792865" y="970.3104073718384"/>
+            <y:Point x="963.1774305555556" y="956.1682717481076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e55" source="n14" target="n12">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="26.710205078125" sy="-15.0" tx="-24.7481689453125" ty="15.0">
+            <y:Point x="1439.4685384114584" y="1604.0141892032318"/>
+            <y:Point x="1488.44919937376" y="1555.0335282409303"/>
+            <y:Point x="1536.2677850111897" y="1555.0335282409303"/>
+            <y:Point x="1550.4099206349206" y="1540.8913926171995"/>
+            <y:Point x="1550.4099206349206" y="1337.9634466016037"/>
+            <y:Point x="1564.5520562586514" y="1323.8213109778728"/>
+            <y:Point x="1666.7208065420677" y="1323.8213109778728"/>
+            <y:Point x="1680.8629421657986" y="1309.679175354142"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e56" source="n14" target="n0">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="5.342041015625" sy="-15.0" tx="4.807650862069067" ty="15.0">
+            <y:Point x="1418.1003743489584" y="1445.0245236625863"/>
+            <y:Point x="1395.1813492063493" y="1422.1054985199771"/>
+            <y:Point x="1395.1813492063493" y="268.28427124746213"/>
+            <y:Point x="1366.0392135826182" y="239.14213562373106"/>
+            <y:Point x="1272.927564263578" y="239.14213562373106"/>
+            <y:Point x="1258.785428639847" y="225.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e57" source="n14" target="n2">
+      <data key="d8"><![CDATA[(vertx-mongo : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-16.026123046875" sy="-15.0" tx="47.83949908088243" ty="15.0">
+            <y:Point x="1396.7322102864584" y="1502.2595566796997"/>
+            <y:Point x="1373.8130952380952" y="1479.3404416313365"/>
+            <y:Point x="1373.8130952380952" y="747.1230394030431"/>
+            <y:Point x="1029.1164627062453" y="402.4264068711932"/>
+            <y:Point x="648.4018727998516" y="402.4264068711932"/>
+            <y:Point x="634.2597371761206" y="388.28427124746213"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e58" source="n15" target="n10">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-auth)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-27.609675480769283" sy="-15.0" tx="17.65185546875" ty="15.0">
+            <y:Point x="1306.8903245192307" y="2189.0717172666914"/>
+            <y:Point x="1287.226253799346" y="2169.407646546807"/>
+            <y:Point x="1095.9627705443659" y="2169.407646546807"/>
+            <y:Point x="1081.820634920635" y="2155.265510923076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e59" source="n15" target="n4">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="5.521935096153811" sy="-15.0" tx="18.175575657894797" ty="15.0">
+            <y:Point x="1340.0218253968253" y="728.331769561773"/>
+            <y:Point x="1073.1870835944028" y="461.49702775935066"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e60" source="n15" target="n9">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-jdbc-client)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-22.087740384615472" sy="-15.0" tx="40.5556640625" ty="15.0">
+            <y:Point x="1312.4122596153845" y="2110.265510923076"/>
+            <y:Point x="1298.2701239916537" y="2096.123375299345"/>
+            <y:Point x="1226.8468975284927" y="2096.123375299345"/>
+            <y:Point x="1212.7047619047619" y="2081.9812396756142"/>
+            <y:Point x="1212.7047619047619" y="1782.3953209850222"/>
+            <y:Point x="1184.1858227926587" y="1753.876381872919"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e61" source="n15" target="n11">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-web-parent)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="33.13161057692308" sy="-15.0" tx="-14.092041015625" ty="15.0">
+            <y:Point x="1367.631610576923" y="2271.8340534179997"/>
+            <y:Point x="1381.773746200654" y="2257.6919177942686"/>
+            <y:Point x="1781.3574900273109" y="2257.6919177942686"/>
+            <y:Point x="1795.4996256510417" y="2243.549782170538"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e62" source="n15" target="n2">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-16.565805288461434" sy="-15.0" tx="41.00528492647061" ty="15.0">
+            <y:Point x="1317.9341947115386" y="2100.0801890585026"/>
+            <y:Point x="1298.977380952381" y="2081.123375299345"/>
+            <y:Point x="1298.9777777777779" y="702.287721942726"/>
+            <y:Point x="1014.1164627062451" y="417.4264068711932"/>
+            <y:Point x="641.5676586454397" y="417.4264068711932"/>
+            <y:Point x="627.4255230217087" y="403.28427124746213"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e63" source="n15" target="n7">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-33.13161057692308" sy="-15.0" tx="22.483072916666657" ty="15.0">
+            <y:Point x="1301.368389423077" y="2198.5497821705376"/>
+            <y:Point x="1287.226253799346" y="2184.407646546807"/>
+            <y:Point x="855.751399016588" y="2184.407646546807"/>
+            <y:Point x="841.6092633928571" y="2170.265510923076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e64" source="n15" target="n13">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-mongo-embedded-db)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="16.565805288461434" sy="-15.0" tx="21.991943359375" ty="15.0">
+            <y:Point x="1351.0658052884614" y="2189.071717266692"/>
+            <y:Point x="1370.7298760083463" y="2169.407646546807"/>
+            <y:Point x="1661.2277056461103" y="2169.407646546807"/>
+            <y:Point x="1675.3698412698413" y="2155.2655109230755"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e65" source="n15" target="n14">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-mongo)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="11.043870192307622" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1345.5438701923076" y="2179.593652362845"/>
+            <y:Point x="1370.7298760083463" y="2154.407646546807"/>
+            <y:Point x="1398.6161977096026" y="2154.407646546807"/>
+            <y:Point x="1412.7583333333334" y="2140.265510923076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e66" source="n15" target="n3">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-11.043870192307622" sy="-15.0" tx="20.549218750000023" ty="15.0">
+            <y:Point x="1323.4561298076924" y="2090.6021241546564"/>
+            <y:Point x="1304.4996031746032" y="2071.645597521567"/>
+            <y:Point x="1304.4996031746032" y="1782.3953209850222"/>
+            <y:Point x="1223.7063529254347" y="1701.6020707358537"/>
+            <y:Point x="1073.6976911792865" y="1701.6020707358537"/>
+            <y:Point x="1059.5555555555557" y="1687.4599351121228"/>
+            <y:Point x="1059.5555555555557" y="1642.4599351121228"/>
+            <y:Point x="1045.4134199318248" y="1628.317799488392"/>
+            <y:Point x="968.8642857142858" y="1628.317799488392"/>
+            <y:Point x="953.8642857142858" y="1613.317799488392"/>
+            <y:Point x="953.8642857142858" y="1279.2923311502147"/>
+            <y:Point x="925.5800144668241" y="1251.008059902753"/>
+            <y:Point x="794.18897342135" y="1251.008059902753"/>
+            <y:Point x="780.0468377976191" y="1236.8659242790222"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e67" source="n15" target="n8">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-sql-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="23.88437500000009" ty="15.0">
+            <y:Point x="1334.4996031746032" y="2030.7626248465717"/>
+            <y:Point x="1320.3574675508721" y="2016.6204892228407"/>
+            <y:Point x="1286.8468975284927" y="2016.6204892228407"/>
+            <y:Point x="1272.7047619047619" y="2002.4783535991096"/>
+            <y:Point x="1272.7047619047619" y="1567.4599351121228"/>
+            <y:Point x="1258.562626281031" y="1553.317799488392"/>
+            <y:Point x="1243.562626281031" y="1553.317799488392"/>
+            <y:Point x="1203.1510416666667" y="1512.9062148740277"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e68" source="n15" target="n6">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-5.521935096153811" sy="-15.0" tx="18.95572916666663" ty="15.0">
+            <y:Point x="1328.9780649038462" y="2081.12405925081"/>
+            <y:Point x="1310.0218253968253" y="2062.167819743789"/>
+            <y:Point x="1310.0218253968253" y="1852.9513694721254"/>
+            <y:Point x="1328.9777777777779" y="1833.9954170911728"/>
+            <y:Point x="1328.9777777777779" y="1220.5370397304112"/>
+            <y:Point x="1093.7511454192052" y="985.3104073718384"/>
+            <y:Point x="973.5284203459531" y="985.3104073718384"/>
+            <y:Point x="959.3862847222222" y="971.1682717481076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e69" source="n15" target="n12">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="22.087740384615472" sy="-15.0" tx="8.2493896484375" ty="15.0">
+            <y:Point x="1356.5877403846155" y="2198.5497821705376"/>
+            <y:Point x="1370.7298760083463" y="2184.407646546807"/>
+            <y:Point x="1718.5590548524597" y="2184.407646546807"/>
+            <y:Point x="1732.7011904761905" y="2170.265510923076"/>
+            <y:Point x="1732.7011904761905" y="1897.118036138792"/>
+            <y:Point x="1744.5234126984126" y="1885.2958139165698"/>
+            <y:Point x="1744.5234126984126" y="1580.1154906676782"/>
+            <y:Point x="1756.345634920635" y="1568.2932684454559"/>
+            <y:Point x="1756.345634920635" y="1337.9634466016037"/>
+            <y:Point x="1742.203499296904" y="1323.8213109778728"/>
+            <y:Point x="1728.0026363832794" y="1323.8213109778728"/>
+            <y:Point x="1713.8605007595486" y="1309.679175354142"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e70" source="n15" target="n0">
+      <data key="d8"><![CDATA[(vertx-shell : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="27.609675480769283" sy="-15.0" tx="14.422952586206975" ty="15.0">
+            <y:Point x="1362.1096754807693" y="2262.3559885141535"/>
+            <y:Point x="1381.773746200654" y="2242.6919177942686"/>
+            <y:Point x="1724.0812770746816" y="2242.6919177942686"/>
+            <y:Point x="1738.2234126984126" y="2228.5497821705376"/>
+            <y:Point x="1738.2234126984126" y="1906.5958139165696"/>
+            <y:Point x="1750.045634920635" y="1894.7735916943475"/>
+            <y:Point x="1750.045634920635" y="1642.459935112123"/>
+            <y:Point x="1761.8678571428572" y="1630.6377128899007"/>
+            <y:Point x="1761.8678571428572" y="1347.9633628962465"/>
+            <y:Point x="1776.009992766588" y="1333.8212272725157"/>
+            <y:Point x="1822.7257215191264" y="1333.8212272725157"/>
+            <y:Point x="1836.8678571428572" y="1319.6790916487848"/>
+            <y:Point x="1836.8678571428572" y="268.28427124746213"/>
+            <y:Point x="1747.7257215191262" y="179.14213562373106"/>
+            <y:Point x="1282.542865987716" y="179.14213562373106"/>
+            <y:Point x="1268.4007303639848" y="165.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e71" source="n16" target="n15">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-shell)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="71.39149305555556" sy="-15.0" tx="-17.9462890625" ty="15.0">
+            <y:Point x="1177.320064484127" y="2477.344728228238"/>
+            <y:Point x="1191.4622001078578" y="2463.2025926045076"/>
+            <y:Point x="1256.5537109375" y="2463.2025926045076"/>
+            <y:Point x="1316.5537109375" y="2403.2025926045076"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e72" source="n16" target="n3">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-53.54361979166674" sy="-15.0" tx="6.849739583333303" ty="15.0">
+            <y:Point x="1052.3849516369046" y="2477.344728228238"/>
+            <y:Point x="998.8642857142858" y="2423.8240623056195"/>
+            <y:Point x="998.8642857142858" y="2286.8340534179997"/>
+            <y:Point x="968.8642857142858" y="2256.8340534179997"/>
+            <y:Point x="968.8642857142858" y="1852.9513694721254"/>
+            <y:Point x="954.7221500905548" y="1838.8092338483943"/>
+            <y:Point x="818.1631673697627" y="1838.8092338483943"/>
+            <y:Point x="804.0210317460318" y="1824.6670982246635"/>
+            <y:Point x="804.0210317460318" y="1339.8133628962464"/>
+            <y:Point x="766.3473586309524" y="1302.139689781167"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e73" source="n16" target="n4">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="4.543893914473756" ty="15.0">
+            <y:Point x="1105.9285714285713" y="2461.584156551651"/>
+            <y:Point x="1114.4722222222222" y="2453.040505758"/>
+            <y:Point x="1114.4722222222222" y="1774.0284776070462"/>
+            <y:Point x="1100.3300865984913" y="1759.8863419833153"/>
+            <y:Point x="1058.6976911792865" y="1759.8863419833153"/>
+            <y:Point x="1044.5555555555557" y="1745.7442063595845"/>
+            <y:Point x="1044.5555555555557" y="1090.3104073718384"/>
+            <y:Point x="1059.5555555555557" y="1075.3104073718384"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e74" source="n16" target="n6">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-35.69574652777783" sy="-15.0" tx="3.791145833333303" ty="15.0">
+            <y:Point x="1070.2328249007935" y="2477.3447282282386"/>
+            <y:Point x="1013.8642857142858" y="2420.976189041731"/>
+            <y:Point x="1013.8642857142858" y="1852.9513694721254"/>
+            <y:Point x="999.7221500905548" y="1838.8092338483943"/>
+            <y:Point x="983.8642857142858" y="1838.8092338483943"/>
+            <y:Point x="968.8642857142858" y="1823.8092338483943"/>
+            <y:Point x="968.8642857142858" y="1264.2923311502147"/>
+            <y:Point x="944.2217013888888" y="1239.6497468248178"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e75" source="n16" target="n12">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="35.69574652777783" sy="-15.0" tx="-41.2469482421875" ty="15.0">
+            <y:Point x="1141.6243179563492" y="2477.3447282282386"/>
+            <y:Point x="1144.4722222222222" y="2474.4968239623654"/>
+            <y:Point x="1144.4722222222222" y="2030.7626248465717"/>
+            <y:Point x="1158.6143578459532" y="2016.6204892228407"/>
+            <y:Point x="1228.562626281031" y="2016.6204892228407"/>
+            <y:Point x="1242.7047619047619" y="2002.4783535991096"/>
+            <y:Point x="1242.7047619047619" y="1537.4599351121228"/>
+            <y:Point x="1283.9777777777779" y="1496.1869192391068"/>
+            <y:Point x="1283.9777777777779" y="1347.9633628962465"/>
+            <y:Point x="1366.4041009436132" y="1265.5370397304112"/>
+            <y:Point x="1650.2220272451927" y="1265.5370397304112"/>
+            <y:Point x="1664.3641628689236" y="1251.3949041066803"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e76" source="n16" target="n11">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-web-parent)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="53.54361979166674" sy="-15.0" tx="-42.276123046875" ty="15.0">
+            <y:Point x="1159.4722222222222" y="2286.8340534179997"/>
+            <y:Point x="1232.7564934696843" y="2213.5497821705376"/>
+            <y:Point x="1753.1734079960609" y="2213.5497821705376"/>
+            <y:Point x="1767.3155436197917" y="2199.407646546807"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e77" source="n16" target="n10">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-auth)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-17.847873263888914" sy="-15.0" tx="-5.8839518229167425" ty="15.0">
+            <y:Point x="1088.0806981646824" y="2477.3447282282386"/>
+            <y:Point x="1058.284126984127" y="2447.548157047683"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e78" source="n16" target="n0">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="17.847873263888914" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1123.7764446924602" y="2468.040505758"/>
+            <y:Point x="1129.4722222222222" y="2462.3447282282386"/>
+            <y:Point x="1129.4722222222222" y="2030.7626248465715"/>
+            <y:Point x="1158.6143578459532" y="2001.6204892228404"/>
+            <y:Point x="1213.562626281031" y="2001.6204892228404"/>
+            <y:Point x="1227.7047619047619" y="1987.4783535991096"/>
+            <y:Point x="1227.7047619047619" y="1522.4599351121228"/>
+            <y:Point x="1253.9777777777779" y="1496.1869192391068"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e79" source="n16" target="n2">
+      <data key="d8"><![CDATA[(vertx-dropwizard-metrics : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-71.39149305555543" sy="-15.0" tx="6.834214154411825" ty="15.0">
+            <y:Point x="1034.537078373016" y="2477.3447282282386"/>
+            <y:Point x="1020.394942749285" y="2463.2025926045076"/>
+            <y:Point x="955.684992766588" y="2463.2025926045076"/>
+            <y:Point x="941.5428571428571" y="2449.0604569807765"/>
+            <y:Point x="941.5428571428571" y="2030.7626248465715"/>
+            <y:Point x="938.8642857142858" y="2028.0840534180002"/>
+            <y:Point x="938.8642857142858" y="1294.2923311502147"/>
+            <y:Point x="924.7221500905549" y="1280.150195526484"/>
+            <y:Point x="881.1389610205564" y="1280.150195526484"/>
+            <y:Point x="866.9968253968254" y="1266.0080599027528"/>
+            <y:Point x="866.9968253968254" y="621.4213562373106"/>
+            <y:Point x="852.8546897730944" y="607.2792206135796"/>
+            <y:Point x="607.3965878733809" y="607.2792206135796"/>
+            <y:Point x="593.25445224965" y="593.1370849898485"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e80" source="n17" target="n3">
+      <data key="d8"><![CDATA[(vertx-hawkular-metrics : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-12.278971354166629" sy="-15.0" tx="-20.549218750000023" ty="15.0">
+            <y:Point x="579.5714254712302" y="2434.5637099160153"/>
+            <y:Point x="602.7519841269841" y="2411.3831512602615"/>
+            <y:Point x="602.7519841269841" y="1170.3848640100123"/>
+            <y:Point x="738.9484002976191" y="1034.1884478393772"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e81" source="n17" target="n4">
+      <data key="d8"><![CDATA[(vertx-hawkular-metrics : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="36.8369140625" sy="-15.0" tx="-22.719469572368325" ty="15.0">
+            <y:Point x="628.6873108878968" y="2427.7605353128406"/>
+            <y:Point x="632.7519841269841" y="2423.6958620737537"/>
+            <y:Point x="632.7519841269841" y="1852.9513694721254"/>
+            <y:Point x="618.6098485032531" y="1838.8092338483943"/>
+            <y:Point x="601.894119750715" y="1838.8092338483943"/>
+            <y:Point x="587.7519841269841" y="1824.6670982246635"/>
+            <y:Point x="587.7519841269841" y="750.7107380706734"/>
+            <y:Point x="702.0413659603469" y="636.4213562373106"/>
+            <y:Point x="1018.1499027404086" y="636.4213562373106"/>
+            <y:Point x="1032.2920383641397" y="622.2792206135796"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e82" source="n17" target="n6">
+      <data key="d8"><![CDATA[(vertx-hawkular-metrics : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="12.278971354166629" sy="-15.0" tx="-15.164583333333326" ty="15.0">
+            <y:Point x="604.1293681795635" y="2426.3831512602615"/>
+            <y:Point x="617.7519841269841" y="2412.760535312841"/>
+            <y:Point x="617.7519841269841" y="1170.384864010012"/>
+            <y:Point x="881.9968253968252" y="906.1400227401709"/>
+            <y:Point x="911.1238365984913" y="906.1400227401709"/>
+            <y:Point x="925.2659722222222" y="891.9978871164399"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e83" source="n17" target="n0">
+      <data key="d8"><![CDATA[(vertx-hawkular-metrics : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-61.39485677083337" sy="-15.0" tx="-24.038254310344882" ty="15.0">
+            <y:Point x="530.4555400545635" y="2414.9826052898707"/>
+            <y:Point x="535.9174603174603" y="2409.5206850269738"/>
+            <y:Point x="535.9174603174603" y="1642.4599351121228"/>
+            <y:Point x="521.7753246937294" y="1628.317799488392"/>
+            <y:Point x="456.8452380952381" y="1628.317799488392"/>
+            <y:Point x="426.8452380952381" y="1598.317799488392"/>
+            <y:Point x="426.8452380952381" y="1347.9633628962465"/>
+            <y:Point x="412.70310247150724" y="1333.8212272725157"/>
+            <y:Point x="336.43935784595317" y="1333.8212272725157"/>
+            <y:Point x="322.2972222222222" y="1319.6790916487848"/>
+            <y:Point x="322.2972222222222" y="676.0092067679489"/>
+            <y:Point x="510.92539682539683" y="487.3810321647743"/>
+            <y:Point x="510.92539682539683" y="245.68829220480302"/>
+            <y:Point x="622.4715534064687" y="134.14213562373106"/>
+            <y:Point x="1215.797387843702" y="134.14213562373106"/>
+            <y:Point x="1229.939523467433" y="120.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e84" source="n17" target="n2">
+      <data key="d8"><![CDATA[(vertx-hawkular-metrics : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-36.8369140625" sy="-15.0" tx="-20.502642463235247" ty="15.0">
+            <y:Point x="555.0134827628968" y="2430.4676874705788"/>
+            <y:Point x="565.9174603174603" y="2419.5637099160153"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e85" source="n17" target="n7">
+      <data key="d8"><![CDATA[(vertx-hawkular-metrics : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="61.39485677083337" sy="-15.0" tx="-14.988715277777828" ty="15.0">
+            <y:Point x="653.2452535962302" y="2477.3447282282386"/>
+            <y:Point x="677.7519841269841" y="2452.8379976974848"/>
+            <y:Point x="677.7519841269841" y="2286.8340534179997"/>
+            <y:Point x="691.894119750715" y="2272.6919177942686"/>
+            <y:Point x="789.9953395746817" y="2272.6919177942686"/>
+            <y:Point x="804.1374751984126" y="2258.5497821705376"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e86" source="n18" target="n4">
+      <data key="d8"><![CDATA[(vertx-reactive-streams : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="47.63736979166667" sy="-15.0" tx="-40.89504523026312" ty="15.0">
+            <y:Point x="151.49761904761905" y="792.9897623235045"/>
+            <y:Point x="497.9188388761993" y="446.56854249492426"/>
+            <y:Point x="999.9743270825139" y="446.56854249492426"/>
+            <y:Point x="1014.1164627062449" y="432.4264068711932"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e87" source="n18" target="n0">
+      <data key="d8"><![CDATA[(vertx-reactive-streams : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-47.63736979166667" sy="-15.0" tx="-33.65355603448279" ty="15.0">
+            <y:Point x="56.223015873015875" y="1642.4599351121228"/>
+            <y:Point x="42.08088024928504" y="1628.317799488392"/>
+            <y:Point x="14.14213562373095" y="1628.317799488392"/>
+            <y:Point x="0.0" y="1614.1756638646611"/>
+            <y:Point x="0.0" y="255.68823950143042"/>
+            <y:Point x="181.54610387769935" y="74.14213562373106"/>
+            <y:Point x="1206.182086119564" y="74.14213562373106"/>
+            <y:Point x="1220.324221743295" y="60.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e88" source="n18" target="n2">
+      <data key="d8"><![CDATA[(vertx-reactive-streams : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-47.83949908088232" ty="15.0">
+            <y:Point x="103.86031746031746" y="2477.3447282282386"/>
+            <y:Point x="136.49761904761905" y="2444.707426640937"/>
+            <y:Point x="136.49761904761905" y="792.9897623235045"/>
+            <y:Point x="497.9188388761993" y="431.56854249492426"/>
+            <y:Point x="524.4386033906247" y="431.56854249492426"/>
+            <y:Point x="538.5807390143558" y="417.4264068711932"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e89" source="n19" target="n0">
+      <data key="d8"><![CDATA[(vertx-sync : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="17.64453125" sy="-15.0" tx="21.634428879310462" ty="15.0">
+            <y:Point x="1457.787388392857" y="2477.344728228238"/>
+            <y:Point x="1471.929524016588" y="2463.2025926045076"/>
+            <y:Point x="1891.460642154047" y="2463.2025926045076"/>
+            <y:Point x="1905.6027777777779" y="2449.0604569807765"/>
+            <y:Point x="1905.6027777777779" y="2236.476910560857"/>
+            <y:Point x="1940.9599206349205" y="2201.1197677037144"/>
+            <y:Point x="1940.9599206349205" y="268.28427124746213"/>
+            <y:Point x="1806.8177850111895" y="134.14213562373106"/>
+            <y:Point x="1289.7543422808194" y="134.14213562373106"/>
+            <y:Point x="1275.6122066570883" y="120.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e90" source="n19" target="n7">
+      <data key="d8"><![CDATA[(vertx-sync : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-17.64453125" sy="-15.0" tx="14.988715277777828" ty="15.0">
+            <y:Point x="1422.498325892857" y="2403.202592604507"/>
+            <y:Point x="1380.2719223300805" y="2360.976189041731"/>
+            <y:Point x="1196.8468975284927" y="2360.976189041731"/>
+            <y:Point x="1182.7047619047619" y="2346.8340534179997"/>
+            <y:Point x="1182.7047619047619" y="2248.60151373546"/>
+            <y:Point x="1154.6083333333333" y="2220.5050851640317"/>
+            <y:Point x="848.2570413776992" y="2220.5050851640317"/>
+            <y:Point x="834.1149057539683" y="2206.3629495403006"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e91" source="n20" target="n12">
+      <data key="d8"><![CDATA[(vertx-maven-service-factory : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-44.27685546875" sy="-15.0" tx="57.7457275390625" ty="15.0">
+            <y:Point x="2213.504493737599" y="2477.3447282282386"/>
+            <y:Point x="2184.227380952381" y="2448.0676154430203"/>
+            <y:Point x="2184.227380952381" y="1347.9633628962467"/>
+            <y:Point x="2086.204617641427" y="1249.9405995852928"/>
+            <y:Point x="1777.4989742739044" y="1249.9405995852928"/>
+            <y:Point x="1763.3568386501736" y="1235.798463961562"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e92" source="n20" target="n0">
+      <data key="d8"><![CDATA[(vertx-maven-service-factory : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="44.27685546875" sy="-15.0" tx="28.845905172413723" ty="15.0">
+            <y:Point x="2302.0583333333334" y="268.28427124746213"/>
+            <y:Point x="2122.9161977096023" y="89.14213562373106"/>
+            <y:Point x="1296.9658185739227" y="89.14213562373106"/>
+            <y:Point x="1282.8236829501916" y="75.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e93" source="n21" target="n4">
+      <data key="d8"><![CDATA[(vertx-http-service-factory : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-20.36376953125" sy="-15.0" tx="40.89504523026312" ty="15.0">
+            <y:Point x="2034.7298812624008" y="2477.3447282282386"/>
+            <y:Point x="2020.5877456386697" y="2463.2025926045076"/>
+            <y:Point x="1994.8602065761697" y="2463.2025926045076"/>
+            <y:Point x="1973.638492063492" y="2441.9808780918297"/>
+            <y:Point x="1973.638492063492" y="792.9897623235045"/>
+            <y:Point x="1508.0751366111808" y="327.4264068711932"/>
+            <y:Point x="1110.0486887905022" y="327.4264068711932"/>
+            <y:Point x="1095.9065531667711" y="313.28427124746213"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e94" source="n21" target="n12">
+      <data key="d8"><![CDATA[(vertx-http-service-factory : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="20.36376953125" sy="-15.0" tx="24.7481689453125" ty="15.0">
+            <y:Point x="2075.457420324901" y="2477.3447282282386"/>
+            <y:Point x="2117.722619047619" y="2435.0795295055204"/>
+            <y:Point x="2117.722619047619" y="1842.9514407766887"/>
+            <y:Point x="2088.580483423888" y="1813.8093051529577"/>
+            <y:Point x="1971.4413419729372" y="1813.8093051529577"/>
+            <y:Point x="1957.2992063492063" y="1799.667169529227"/>
+            <y:Point x="1957.2992063492063" y="1642.4599351121228"/>
+            <y:Point x="1871.8388888888883" y="1556.9996176518048"/>
+            <y:Point x="1806.009992766588" y="1556.9996176518048"/>
+            <y:Point x="1791.8678571428572" y="1542.857482028074"/>
+            <y:Point x="1791.8678571428572" y="1318.8212272725157"/>
+            <y:Point x="1777.7257215191264" y="1304.6790916487848"/>
+            <y:Point x="1744.5014156801544" y="1304.6790916487848"/>
+            <y:Point x="1730.3592800564236" y="1290.536956025054"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e95" source="n21" target="n0">
+      <data key="d8"><![CDATA[(vertx-http-service-factory : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="61.09130859375" sy="-15.0" tx="26.442079741379303" ty="15.0">
+            <y:Point x="2116.184959387401" y="2477.3447282282386"/>
+            <y:Point x="2132.722619047619" y="2460.8070685680204"/>
+            <y:Point x="2132.722619047619" y="1852.9513694721254"/>
+            <y:Point x="2169.227380952381" y="1816.4466075673636"/>
+            <y:Point x="2169.227380952381" y="1642.4599351121228"/>
+            <y:Point x="2199.227380952381" y="1612.4599351121228"/>
+            <y:Point x="2199.227380952381" y="268.28427124746213"/>
+            <y:Point x="2035.0852453286498" y="104.14213562373106"/>
+            <y:Point x="1294.5619931428882" y="104.14213562373106"/>
+            <y:Point x="1280.4198575191572" y="90.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e96" source="n21" target="n7">
+      <data key="d8"><![CDATA[(vertx-http-service-factory : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-61.09130859375" sy="-15.0" tx="29.977430555555543" ty="15.0">
+            <y:Point x="1994.0023421999008" y="2477.3447282282386"/>
+            <y:Point x="1979.8602065761697" y="2463.2025926045076"/>
+            <y:Point x="1955.1020562586514" y="2463.2025926045076"/>
+            <y:Point x="1940.9599206349205" y="2449.0604569807765"/>
+            <y:Point x="1940.9599206349205" y="2286.8340534179997"/>
+            <y:Point x="1779.3913781399967" y="2125.265510923076"/>
+            <y:Point x="863.245756655477" y="2125.265510923076"/>
+            <y:Point x="849.103621031746" y="2111.123375299345"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e97" source="n22" target="n0">
+      <data key="d8"><![CDATA[(vertx-service-proxy : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="31.30712890625" sy="-15.0" tx="7.2114762931034875" ty="15.0">
+            <y:Point x="1504.102763826885" y="1332.9633628962465"/>
+            <y:Point x="1489.960628203154" y="1318.8212272725157"/>
+            <y:Point x="1470.6306276872228" y="1318.8212272725157"/>
+            <y:Point x="1456.488492063492" y="1304.6790916487848"/>
+            <y:Point x="1456.488492063492" y="268.28427124746213"/>
+            <y:Point x="1412.346356439761" y="224.14213562373106"/>
+            <y:Point x="1275.3313896946124" y="224.14213562373106"/>
+            <y:Point x="1261.1892540708814" y="210.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e98" source="n22" target="n4">
+      <data key="d8"><![CDATA[(vertx-service-proxy : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-31.30712890625" sy="-15.0" tx="27.26336348684208" ty="15.0">
+            <y:Point x="1441.488492063492" y="422.8720260883856"/>
+            <y:Point x="1391.0428728462996" y="372.4264068711932"/>
+            <y:Point x="1096.4170070470811" y="372.4264068711932"/>
+            <y:Point x="1082.27487142335" y="358.28427124746213"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e99" source="n23" target="n3">
+      <data key="d8"><![CDATA[(vertx-redis-client : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-13.69947916666672" ty="15.0">
+            <y:Point x="751.5146825396826" y="2477.3447282282386"/>
+            <y:Point x="706.4210317460318" y="2432.2510774345874"/>
+            <y:Point x="706.4210317460318" y="1096.7158163909644"/>
+            <y:Point x="745.7981398809524" y="1057.338708256044"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e100" source="n23" target="n4">
+      <data key="d8"><![CDATA[(vertx-redis-client : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="44.792187499999955" sy="-15.0" tx="-18.175575657894797" ty="15.0">
+            <y:Point x="796.3068700396825" y="2477.3447282282386"/>
+            <y:Point x="736.4210317460318" y="2417.4588899345877"/>
+            <y:Point x="736.4210317460318" y="1852.9513694721254"/>
+            <y:Point x="722.2788961223008" y="1838.8092338483943"/>
+            <y:Point x="705.5631673697627" y="1838.8092338483943"/>
+            <y:Point x="691.4210317460318" y="1824.6670982246635"/>
+            <y:Point x="691.4210317460318" y="738.8477631085038"/>
+            <y:Point x="778.847438617225" y="651.4213562373106"/>
+            <y:Point x="1022.6937966548822" y="651.4213562373106"/>
+            <y:Point x="1036.8359322786132" y="637.2792206135796"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e101" source="n23" target="n6">
+      <data key="d8"><![CDATA[(vertx-redis-client : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="22.396093749999977" sy="-15.0" tx="-11.373437500000023" ty="15.0">
+            <y:Point x="773.9107762896825" y="2477.344728228238"/>
+            <y:Point x="721.4210317460318" y="2424.8549836845878"/>
+            <y:Point x="721.4210317460318" y="1096.7158163909646"/>
+            <y:Point x="896.9968253968254" y="921.1400227401709"/>
+            <y:Point x="914.9149824318246" y="921.1400227401709"/>
+            <y:Point x="929.0571180555555" y="906.9978871164399"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e102" source="n23" target="n0">
+      <data key="d8"><![CDATA[(vertx-redis-client : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-44.792187499999955" sy="-15.0" tx="-21.634428879310235" ty="15.0">
+            <y:Point x="706.7224950396826" y="2466.808508610183"/>
+            <y:Point x="677.7519841269841" y="2437.8379976974848"/>
+            <y:Point x="661.894119750715" y="2437.8379976974848"/>
+            <y:Point x="647.7519841269841" y="2423.6958620737537"/>
+            <y:Point x="647.7519841269841" y="1642.4599351121228"/>
+            <y:Point x="633.6098485032533" y="1628.317799488392"/>
+            <y:Point x="548.2511904761905" y="1628.317799488392"/>
+            <y:Point x="533.2511904761905" y="1613.317799488392"/>
+            <y:Point x="533.2511904761905" y="1347.9633628962465"/>
+            <y:Point x="519.1090548524596" y="1333.8212272725157"/>
+            <y:Point x="459.56078641738173" y="1333.8212272725157"/>
+            <y:Point x="445.4186507936508" y="1319.6790916487848"/>
+            <y:Point x="445.4186507936508" y="644.5228293527975"/>
+            <y:Point x="513.3293650793651" y="576.6121150670829"/>
+            <y:Point x="513.3293650793651" y="258.2843239508352"/>
+            <y:Point x="622.4715534064692" y="149.14213562373106"/>
+            <y:Point x="1218.2012132747366" y="149.14213562373106"/>
+            <y:Point x="1232.3433488984676" y="135.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e103" source="n23" target="n2">
+      <data key="d8"><![CDATA[(vertx-redis-client : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-22.396093749999977" sy="-15.0" tx="-13.668428308823536" ty="15.0">
+            <y:Point x="729.1185887896826" y="2474.204602360183"/>
+            <y:Point x="662.7519841269841" y="2407.8379976974843"/>
+            <y:Point x="662.7519841269841" y="1347.9633628962465"/>
+            <y:Point x="648.6098485032533" y="1333.8212272725157"/>
+            <y:Point x="586.894119750715" y="1333.8212272725157"/>
+            <y:Point x="572.7519841269841" y="1319.6790916487848"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e104" source="n24" target="n6">
+      <data key="d8"><![CDATA[(vertx-bridge-common : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="27.98710937499999" sy="-15.0" tx="-22.746875000000045" ty="15.0">
+            <y:Point x="393.2718253968254" y="1318.8212272725157"/>
+            <y:Point x="835.9530299291702" y="876.1400227401709"/>
+            <y:Point x="903.5415449318245" y="876.1400227401709"/>
+            <y:Point x="917.6836805555555" y="861.9978871164399"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e105" source="n24" target="n0">
+      <data key="d8"><![CDATA[(vertx-bridge-common : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-55.974218750000034" sy="-15.0" tx="-28.845905172413723" ty="15.0">
+            <y:Point x="309.31031746031744" y="1642.4599351121228"/>
+            <y:Point x="295.1681818365866" y="1628.317799488392"/>
+            <y:Point x="185.90714285714284" y="1628.317799488392"/>
+            <y:Point x="170.90714285714284" y="1613.317799488392"/>
+            <y:Point x="170.90714285714284" y="1347.9633628962465"/>
+            <y:Point x="156.765007233412" y="1333.8212272725157"/>
+            <y:Point x="135.63975467135" y="1333.8212272725157"/>
+            <y:Point x="121.49761904761905" y="1319.6790916487848"/>
+            <y:Point x="121.49761904761905" y="268.28427124746213"/>
+            <y:Point x="285.63975467135015" y="104.14213562373106"/>
+            <y:Point x="1210.989736981633" y="104.14213562373106"/>
+            <y:Point x="1225.1318726053642" y="90.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e106" source="n24" target="n2">
+      <data key="d8"><![CDATA[(vertx-bridge-common : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-27.98710937499999" sy="-15.0" tx="-34.17107077205878" ty="15.0">
+            <y:Point x="337.2972222222222" y="767.6442579242262"/>
+            <y:Point x="552.2491673231793" y="552.6923128232688"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e107" source="n24" target="n3">
+      <data key="d8"><![CDATA[(vertx-bridge-common : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-34.24869791666663" ty="15.0">
+            <y:Point x="365.2845238095238" y="2271.8340534179997"/>
+            <y:Point x="367.2972222222222" y="2269.8213550053015"/>
+            <y:Point x="367.2972222222222" y="1318.8212272725157"/>
+            <y:Point x="725.2489211309525" y="960.8695283637853"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e108" source="n24" target="n4">
+      <data key="d8"><![CDATA[(vertx-bridge-common : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="55.97421874999998" sy="-15.0" tx="-31.807257401315837" ty="15.0">
+            <y:Point x="421.25873015873015" y="1852.9513694721254"/>
+            <y:Point x="407.1165945349992" y="1838.8092338483943"/>
+            <y:Point x="366.43935784595317" y="1838.8092338483943"/>
+            <y:Point x="352.2972222222222" y="1824.6670982246635"/>
+            <y:Point x="352.2972222222222" y="767.6442579242257"/>
+            <y:Point x="600.0886664040615" y="519.8528137423864"/>
+            <y:Point x="1009.0621149114612" y="519.8528137423864"/>
+            <y:Point x="1023.2042505351922" y="505.7106781186553"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e109" source="n25" target="n10">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-auth)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="25.4156494140625" sy="-15.0" tx="-29.419759114583258" ty="15.0">
+            <y:Point x="472.92715735057044" y="2447.97290825676"/>
+            <y:Point x="520.9174603174603" y="2399.98260528987"/>
+            <y:Point x="520.9174603174603" y="2286.8340534179997"/>
+            <y:Point x="550.9174603174603" y="2256.8340534179997"/>
+            <y:Point x="550.9174603174603" y="2030.7626248465715"/>
+            <y:Point x="604.1723834325396" y="1977.507701731492"/>
+            <y:Point x="1020.6063592299398" y="1977.507701731492"/>
+            <y:Point x="1034.7484948536708" y="1963.3655661077612"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e110" source="n25" target="n3">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-5.0831298828125" sy="-15.0" tx="-27.398958333333326" ty="15.0">
+            <y:Point x="442.42837805369544" y="2433.471687553635"/>
+            <y:Point x="490.4186507936508" y="2385.4814148136797"/>
+            <y:Point x="490.4186507936508" y="1252.7181973433455"/>
+            <y:Point x="732.0986607142858" y="1011.0381874227105"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e111" source="n25" target="n4">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="15.2493896484375" sy="-15.0" tx="-27.26336348684208" ty="15.0">
+            <y:Point x="462.76089758494544" y="2443.139168022385"/>
+            <y:Point x="510.75119047619046" y="2395.1488751311404"/>
+            <y:Point x="510.75119047619046" y="1852.9513694721254"/>
+            <y:Point x="475.4186507936508" y="1817.6188297895858"/>
+            <y:Point x="475.4186507936508" y="695.9728864458475"/>
+            <y:Point x="593.2544522496498" y="578.1370849898485"/>
+            <y:Point x="1013.606008825935" y="578.1370849898485"/>
+            <y:Point x="1027.748144449666" y="563.9949493661175"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e112" source="n25" target="n24">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-bridge-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-35.5819091796875" sy="-15.0" tx="46.64518229166667" ty="15.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e113" source="n25" target="n6">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="5.0831298828125" sy="-15.0" tx="-18.95572916666663" ty="15.0">
+            <y:Point x="452.59463781932044" y="2438.30542778801"/>
+            <y:Point x="500.58492063492065" y="2390.31514497241"/>
+            <y:Point x="500.58492063492065" y="1257.5519275020756"/>
+            <y:Point x="866.9968253968253" y="891.1400227401709"/>
+            <y:Point x="907.332690765158" y="891.1400227401709"/>
+            <y:Point x="921.4748263888889" y="876.9978871164399"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e114" source="n25" target="n0">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-25.4156494140625" sy="-15.0" tx="-26.442079741379303" ty="15.0">
+            <y:Point x="422.09585852244544" y="2400.59914872365"/>
+            <y:Point x="450.252380952381" y="2372.4426262937145"/>
+            <y:Point x="450.252380952381" y="1642.4599351121228"/>
+            <y:Point x="421.11024532865014" y="1613.317799488392"/>
+            <y:Point x="294.4588022903976" y="1613.317799488392"/>
+            <y:Point x="280.31666666666666" y="1599.1756638646611"/>
+            <y:Point x="280.31666666666666" y="1347.9633628962465"/>
+            <y:Point x="266.1745310429358" y="1333.8212272725157"/>
+            <y:Point x="219.4588022903976" y="1333.8212272725157"/>
+            <y:Point x="205.31666666666666" y="1319.6790916487848"/>
+            <y:Point x="205.31666666666666" y="268.28427124746213"/>
+            <y:Point x="354.4588022903977" y="119.14213562373106"/>
+            <y:Point x="1213.3935624126675" y="119.14213562373106"/>
+            <y:Point x="1227.5356980363986" y="105.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e115" source="n25" target="n2">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-15.2493896484375" sy="-15.0" tx="-27.336856617647072" ty="15.0">
+            <y:Point x="432.26211828807044" y="2428.63794731926"/>
+            <y:Point x="460.4186507936508" y="2400.4814148136797"/>
+            <y:Point x="460.4186507936508" y="695.9728864458475"/>
+            <y:Point x="559.083381477591" y="597.3081557619071"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e116" source="n25" target="n7">
+      <data key="d8"><![CDATA[(vertx-stomp : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="35.5819091796875" sy="-15.0" tx="-22.48307291666663" ty="15.0">
+            <y:Point x="483.09341711619544" y="2477.344728228238"/>
+            <y:Point x="580.9174603174603" y="2379.5206850269733"/>
+            <y:Point x="580.9174603174603" y="2286.8340534179997"/>
+            <y:Point x="610.0595959411912" y="2257.6919177942686"/>
+            <y:Point x="782.5009819357929" y="2257.6919177942686"/>
+            <y:Point x="796.6431175595238" y="2243.5497821705376"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e117" source="n26" target="n0">
+      <data key="d8"><![CDATA[(vertx-jca : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="15.25537109375" sy="-15.0" tx="33.65355603448279" ty="15.0">
+            <y:Point x="2409.525" y="268.28427124746213"/>
+            <y:Point x="2200.382864376269" y="59.142135623731065"/>
+            <y:Point x="1301.7734694359917" y="59.142135623731065"/>
+            <y:Point x="1287.6313338122607" y="45.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e118" source="n26" target="n1">
+      <data key="d8"><![CDATA[(vertx-jca : vertx-hazelcast)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-15.25537109375" sy="-15.0" tx="37.156494140625" ty="15.0">
+            <y:Point x="2379.0138888888887" y="2286.8340534179997"/>
+            <y:Point x="2364.8717532651576" y="2272.6919177942686"/>
+            <y:Point x="2089.479040385636" y="2272.6919177942686"/>
+            <y:Point x="2075.336904761905" y="2258.5497821705376"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e119" source="n27" target="n22">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-service-proxy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="21.6766357421875" sy="-15.0" tx="-46.960693359375" ty="15.0">
+            <y:Point x="893.8642857142858" y="1962.507701731492"/>
+            <y:Point x="908.8642857142858" y="1947.507701731492"/>
+            <y:Point x="908.8642857142858" y="1613.3177994883918"/>
+            <y:Point x="1115.0765866827005" y="1407.1054985199771"/>
+            <y:Point x="1411.692805937529" y="1407.1054985199771"/>
+            <y:Point x="1425.83494156126" y="1392.9633628962463"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e120" source="n27" target="n3">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-21.6766357421875" sy="-15.0" tx="-6.849739583333303" ty="15.0">
+            <y:Point x="850.5114594959077" y="2461.208893370256"/>
+            <y:Point x="811.631746031746" y="2422.329179906095"/>
+            <y:Point x="782.8230880046833" y="2422.329179906095"/>
+            <y:Point x="768.6809523809524" y="2408.187044282364"/>
+            <y:Point x="768.6809523809524" y="1852.9513694721254"/>
+            <y:Point x="773.2555555555556" y="1848.3767662975222"/>
+            <y:Point x="773.2555555555556" y="1339.4289033637856"/>
+            <y:Point x="752.6478794642858" y="1318.821227272516"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e121" source="n27" target="n4">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="13.0059814453125" sy="-15.0" tx="-4.543893914473756" ty="15.0">
+            <y:Point x="885.193253968254" y="1007.9435941687425"/>
+            <y:Point x="966.9685763888889" y="926.1682717481076"/>
+            <y:Point x="1002.165873015873" y="926.1682717481076"/>
+            <y:Point x="1017.165873015873" y="911.1682717481076"/>
+            <y:Point x="1017.165873015873" y="744.6881750219168"/>
+            <y:Point x="1050.4676140220342" y="711.3864340157556"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e122" source="n27" target="n6">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="4.3353271484375" sy="-15.0" tx="-3.791145833333303" ty="15.0">
+            <y:Point x="876.5222222222222" y="1001.6146259147743"/>
+            <y:Point x="936.6394097222222" y="941.4974384147743"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e123" source="n27" target="n12">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="30.3472900390625" sy="-15.0" tx="-57.7457275390625" ty="15.0">
+            <y:Point x="902.5353174603175" y="2030.7626248465715"/>
+            <y:Point x="900.193253968254" y="2028.420561354508"/>
+            <y:Point x="900.193253968254" y="1347.9633628962465"/>
+            <y:Point x="997.6195771340894" y="1250.5370397304112"/>
+            <y:Point x="1633.7232479483177" y="1250.5370397304112"/>
+            <y:Point x="1647.8653835720486" y="1236.3949041066803"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e124" source="n27" target="n0">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-4.3353271484375" sy="-15.0" tx="-12.019127155172328" ty="15.0">
+            <y:Point x="867.8527680896577" y="2441.055757519562"/>
+            <y:Point x="846.5222222222222" y="2419.7252116521263"/>
+            <y:Point x="846.5222222222222" y="2256.8340534179997"/>
+            <y:Point x="867.8511904761905" y="2235.5050851640317"/>
+            <y:Point x="867.8511904761905" y="995.285657660806"/>
+            <y:Point x="881.9968253968254" y="981.1400227401709"/>
+            <y:Point x="881.9968253968254" y="268.28427124746213"/>
+            <y:Point x="941.1389610205565" y="209.14213562373106"/>
+            <y:Point x="1227.8165149988745" y="209.14213562373106"/>
+            <y:Point x="1241.9586506226055" y="195.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e125" source="n27" target="n2">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-30.3472900390625" sy="-15.0" tx="-6.834214154411711" ty="15.0">
+            <y:Point x="841.8408051990327" y="2477.3447282282386"/>
+            <y:Point x="827.6986695753018" y="2463.2025926045076"/>
+            <y:Point x="797.1647344159516" y="2463.2025926045076"/>
+            <y:Point x="751.4210317460318" y="2417.4588899345877"/>
+            <y:Point x="751.4210317460318" y="1642.4599351121228"/>
+            <y:Point x="737.2788961223009" y="1628.317799488392"/>
+            <y:Point x="683.7286435602389" y="1628.317799488392"/>
+            <y:Point x="669.5865079365079" y="1614.1756638646611"/>
+            <y:Point x="669.5865079365079" y="653.8762142611495"/>
+            <y:Point x="655.4443723127769" y="639.7340786374184"/>
+            <y:Point x="593.7281595645574" y="639.7340786374184"/>
+            <y:Point x="579.5860239408264" y="625.5919430136873"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e126" source="n27" target="n7">
+      <data key="d8"><![CDATA[(vertx-mail : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-13.0059814453125" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="859.1821137927827" y="2447.385103222687"/>
+            <y:Point x="819.1261904761905" y="2407.329179906095"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e127" source="n28" target="n3">
+      <data key="d8"><![CDATA[(vertx-tcp-eventbus-bridge : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-23.85128348214289" sy="-15.0" tx="-41.098437500000045" ty="15.0">
+            <y:Point x="264.9451450892857" y="2477.3447282282386"/>
+            <y:Point x="250.31666666666666" y="2462.7162498056196"/>
+            <y:Point x="250.31666666666666" y="1314.2225376211234"/>
+            <y:Point x="718.399181547619" y="846.1400227401709"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e128" source="n28" target="n4">
+      <data key="d8"><![CDATA[(vertx-tcp-eventbus-bridge : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="23.85128348214289" sy="-15.0" tx="-36.35115131578948" ty="15.0">
+            <y:Point x="312.64771205357147" y="2477.3447282282386"/>
+            <y:Point x="280.31666666666666" y="2445.013682841334"/>
+            <y:Point x="280.31666666666666" y="1852.9513694721254"/>
+            <y:Point x="266.1745310429357" y="1838.8092338483943"/>
+            <y:Point x="249.4588022903976" y="1838.8092338483943"/>
+            <y:Point x="235.31666666666666" y="1824.6670982246635"/>
+            <y:Point x="235.31666666666666" y="792.9897623235045"/>
+            <y:Point x="523.4536152477847" y="504.8528137423864"/>
+            <y:Point x="1004.5182209969875" y="504.8528137423864"/>
+            <y:Point x="1018.6603566207185" y="490.7106781186553"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e129" source="n28" target="n24">
+      <data key="d8"><![CDATA[(vertx-tcp-eventbus-bridge : vertx-bridge-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="47.702566964285715" sy="-15.0" tx="-46.64518229166667" ty="15.0">
+            <y:Point x="336.4989955357143" y="2477.3447282282386"/>
+            <y:Point x="318.63934151785713" y="2459.4850742103813"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e130" source="n28" target="n6">
+      <data key="d8"><![CDATA[(vertx-tcp-eventbus-bridge : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-15.0" tx="-26.53802083333335" ty="15.0">
+            <y:Point x="288.7964285714286" y="2477.3447282282386"/>
+            <y:Point x="265.31666666666666" y="2453.8649663234764"/>
+            <y:Point x="265.31666666666666" y="1318.8212272725157"/>
+            <y:Point x="722.9978711990113" y="861.1400227401709"/>
+            <y:Point x="899.7503990984912" y="861.1400227401709"/>
+            <y:Point x="913.8925347222222" y="846.9978871164399"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e131" source="n28" target="n0">
+      <data key="d8"><![CDATA[(vertx-tcp-eventbus-bridge : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-71.55385044642858" sy="-15.0" tx="-31.24973060344837" ty="15.0">
+            <y:Point x="217.242578125" y="2477.3447282282386"/>
+            <y:Point x="205.31666666666666" y="2465.418816769905"/>
+            <y:Point x="205.31666666666666" y="1852.9513694721254"/>
+            <y:Point x="175.31666666666666" y="1822.9513694721254"/>
+            <y:Point x="175.31666666666666" y="1642.4599351121228"/>
+            <y:Point x="161.17453104293583" y="1628.317799488392"/>
+            <y:Point x="91.09292927452461" y="1628.317799488392"/>
+            <y:Point x="76.95079365079366" y="1614.1756638646611"/>
+            <y:Point x="76.95079365079366" y="1347.9633628962465"/>
+            <y:Point x="62.80865802706282" y="1333.8212272725157"/>
+            <y:Point x="16.546103877699203" y="1333.8212272725157"/>
+            <y:Point x="2.403968253968254" y="1319.6790916487848"/>
+            <y:Point x="2.403968253968254" y="268.28427124746213"/>
+            <y:Point x="181.54610387769932" y="89.14213562373106"/>
+            <y:Point x="1208.5859115505984" y="89.14213562373106"/>
+            <y:Point x="1222.7280471743295" y="75.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e132" source="n28" target="n2">
+      <data key="d8"><![CDATA[(vertx-tcp-eventbus-bridge : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-47.70256696428572" sy="-15.0" tx="-41.00528492647061" ty="15.0">
+            <y:Point x="241.09386160714286" y="2477.3447282282386"/>
+            <y:Point x="220.31666666666666" y="2456.567533287762"/>
+            <y:Point x="220.31666666666666" y="792.9897623235045"/>
+            <y:Point x="545.4149531687675" y="467.8914758214037"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e133" source="n28" target="n7">
+      <data key="d8"><![CDATA[(vertx-tcp-eventbus-bridge : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="71.55385044642856" sy="-15.0" tx="-29.977430555555543" ty="15.0">
+            <y:Point x="360.35027901785713" y="2477.3447282282386"/>
+            <y:Point x="475.4186507936508" y="2362.276356452445"/>
+            <y:Point x="475.4186507936508" y="2286.8340534179997"/>
+            <y:Point x="520.4186507936508" y="2241.8340534179997"/>
+            <y:Point x="775.006624296904" y="2241.8340534179997"/>
+            <y:Point x="789.1487599206349" y="2227.6919177942686"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e134" source="n29" target="n10">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-auth)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-4.017333984375" sy="-15.0" tx="-17.65185546875" ty="15.0">
+            <y:Point x="1196.7213564918154" y="2612.7676713507003"/>
+            <y:Point x="1150.4405489930846" y="2566.4868638519692"/>
+            <y:Point x="998.0064213380167" y="2566.4868638519692"/>
+            <y:Point x="983.8642857142858" y="2552.3447282282386"/>
+            <y:Point x="983.8642857142858" y="2030.7626248465715"/>
+            <y:Point x="998.0064213380167" y="2016.6204892228407"/>
+            <y:Point x="1032.3742628757732" y="2016.6204892228407"/>
+            <y:Point x="1046.516398499504" y="2002.4783535991096"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e135" source="n29" target="n11">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-web-parent)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="12.052001953125" sy="-15.0" tx="42.276123046875" ty="15.0">
+            <y:Point x="1212.7906924293154" y="2649.73300338195"/>
+            <y:Point x="1251.0368319592963" y="2611.4868638519692"/>
+            <y:Point x="1909.1392135826181" y="2611.4868638519692"/>
+            <y:Point x="1923.2813492063492" y="2597.344728228238"/>
+            <y:Point x="1923.2813492063492" y="2138.441196275143"/>
+            <y:Point x="1895.9599206349205" y="2111.1197677037144"/>
+            <y:Point x="1880.9599206349208" y="2111.1197677037144"/>
+            <y:Point x="1851.8677897135417" y="2082.0276367823353"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e136" source="n29" target="n20">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-maven-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="30.799560546875" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1231.5382510230654" y="2735.9854447882"/>
+            <y:Point x="1251.0368319592963" y="2716.4868638519692"/>
+            <y:Point x="2243.639213582618" y="2716.4868638519692"/>
+            <y:Point x="2257.781349206349" y="2702.344728228238"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e137" source="n29" target="n18">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-reactive-streams)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-33.477783203125" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1167.2609072730654" y="2748.3072221319503"/>
+            <y:Point x="1150.4405489930846" y="2731.4868638519692"/>
+            <y:Point x="118.00245308404841" y="2731.4868638519692"/>
+            <y:Point x="103.86031746031746" y="2717.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e138" source="n29" target="n7">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-unit)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-14.730224609375" sy="-15.0" tx="-7.494357638888914" ty="15.0">
+            <y:Point x="1186.0084658668154" y="2662.0547807257003"/>
+            <y:Point x="1150.4405489930846" y="2626.4868638519692"/>
+            <y:Point x="836.6472943538897" y="2626.4868638519692"/>
+            <y:Point x="822.5051587301588" y="2612.3447282282386"/>
+            <y:Point x="822.5051587301588" y="2448.2025926045076"/>
+            <y:Point x="811.631746031746" y="2437.329179906095"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e139" source="n29" target="n17">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-hawkular-metrics)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-20.086669921875" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1180.6520205543154" y="2686.6983354132003"/>
+            <y:Point x="1150.4405489930846" y="2656.4868638519692"/>
+            <y:Point x="605.9925324491278" y="2656.4868638519692"/>
+            <y:Point x="591.8503968253968" y="2642.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e140" source="n29" target="n22">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-service-proxy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="20.086669921875" sy="-15.0" tx="46.960693359375" ty="15.0">
+            <y:Point x="1220.8253603980654" y="2686.6983354132"/>
+            <y:Point x="1251.0368319592963" y="2656.4868638519692"/>
+            <y:Point x="1944.4963564397613" y="2656.4868638519692"/>
+            <y:Point x="1958.638492063492" y="2642.3447282282386"/>
+            <y:Point x="1958.638492063492" y="1986.6204892228404"/>
+            <y:Point x="1944.4963564397613" y="1972.4783535991096"/>
+            <y:Point x="1910.1020562586514" y="1972.4783535991096"/>
+            <y:Point x="1895.9599206349205" y="1958.3362179753788"/>
+            <y:Point x="1895.9599206349205" y="1852.9513694721254"/>
+            <y:Point x="1881.8177850111897" y="1838.8092338483943"/>
+            <y:Point x="1850.1020562586514" y="1838.8092338483943"/>
+            <y:Point x="1835.9599206349205" y="1824.6670982246637"/>
+            <y:Point x="1835.9599206349205" y="1617.9075541597415"/>
+            <y:Point x="1667.3928081065153" y="1449.3404416313363"/>
+            <y:Point x="1533.8984639037408" y="1449.3404416313363"/>
+            <y:Point x="1519.75632828001" y="1435.1983060076054"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e141" source="n29" target="n28">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-tcp-eventbus-bridge)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-28.121337890625" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1172.6173525855654" y="2723.6636674444503"/>
+            <y:Point x="1150.4405489930846" y="2701.4868638519692"/>
+            <y:Point x="302.93856419515953" y="2701.4868638519692"/>
+            <y:Point x="288.7964285714286" y="2687.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e142" source="n29" target="n16">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-dropwizard-metrics)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-1.339111328125" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1199.3995791480654" y="2600.4458940069503"/>
+            <y:Point x="1150.4405489930846" y="2551.4868638519692"/>
+            <y:Point x="1120.0707070523022" y="2551.4868638519692"/>
+            <y:Point x="1105.9285714285713" y="2537.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e143" source="n29" target="n14">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-mongo)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="17.408447265625" sy="-15.0" tx="28.490885416666742" ty="15.0">
+            <y:Point x="1218.1471377418154" y="2674.37655806945"/>
+            <y:Point x="1251.0368319592963" y="2641.4868638519692"/>
+            <y:Point x="1941.8177850111897" y="2641.4868638519692"/>
+            <y:Point x="1955.9599206349205" y="2627.3447282282386"/>
+            <y:Point x="1955.9599206349205" y="2201.1197677037144"/>
+            <y:Point x="1865.105663854282" y="2110.265510923076"/>
+            <y:Point x="1455.3913419729374" y="2110.265510923076"/>
+            <y:Point x="1441.2492063492064" y="2096.123375299345"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e144" source="n29" target="n5">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-lang-ceylon-parent)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="1.339111328125" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1202.0778018043154" y="2600.44589400695"/>
+            <y:Point x="1251.0368319592963" y="2551.4868638519692"/>
+            <y:Point x="1281.4066739000787" y="2551.4868638519692"/>
+            <y:Point x="1295.5488095238095" y="2537.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e145" source="n29" target="n6">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-rx)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-6.695556640625" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1194.0431338355654" y="2625.0894486944503"/>
+            <y:Point x="1150.4405489930846" y="2581.4868638519692"/>
+            <y:Point x="938.6917387983341" y="2581.4868638519692"/>
+            <y:Point x="924.5496031746031" y="2567.3447282282386"/>
+            <y:Point x="924.5496031746031" y="2286.8340534179997"/>
+            <y:Point x="923.8642857142858" y="2286.148735957682"/>
+            <y:Point x="923.8642857142858" y="1236.008059902753"/>
+            <y:Point x="940.4305555555555" y="1219.4417900614833"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e146" source="n29" target="n12">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="28.121337890625" sy="-15.0" tx="41.2469482421875" ty="15.0">
+            <y:Point x="1228.8600283668154" y="2723.66366744445"/>
+            <y:Point x="1251.0368319592963" y="2701.4868638519692"/>
+            <y:Point x="2140.0852453286498" y="2701.4868638519692"/>
+            <y:Point x="2154.227380952381" y="2687.344728228238"/>
+            <y:Point x="2154.227380952381" y="1642.4599351121228"/>
+            <y:Point x="2053.767063492063" y="1541.9996176518048"/>
+            <y:Point x="1821.009992766588" y="1541.9996176518048"/>
+            <y:Point x="1806.8678571428572" y="1527.857482028074"/>
+            <y:Point x="1806.8678571428572" y="1318.8212272725157"/>
+            <y:Point x="1777.7257215191264" y="1289.6790916487848"/>
+            <y:Point x="1761.0001949770294" y="1289.6790916487848"/>
+            <y:Point x="1746.8580593532986" y="1275.536956025054"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e147" source="n29" target="n0">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-core)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="36.156005859375" sy="-15.0" tx="31.24973060344837" ty="15.0">
+            <y:Point x="1236.8946963355654" y="2760.6289994757003"/>
+            <y:Point x="1251.0368319592963" y="2746.4868638519692"/>
+            <y:Point x="2349.8717532651576" y="2746.4868638519692"/>
+            <y:Point x="2364.0138888888887" y="2732.344728228238"/>
+            <y:Point x="2364.0138888888887" y="2492.3447282282386"/>
+            <y:Point x="2394.0138888888887" y="2462.3447282282386"/>
+            <y:Point x="2394.0138888888887" y="268.28427124746213"/>
+            <y:Point x="2199.8717532651576" y="74.14213562373106"/>
+            <y:Point x="1299.3696440049573" y="74.14213562373106"/>
+            <y:Point x="1285.2275083812262" y="60.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e148" source="n29" target="n21">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-http-service-factory)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="22.764892578125" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1223.5035830543154" y="2699.02011275695"/>
+            <y:Point x="1251.0368319592963" y="2671.4868638519692"/>
+            <y:Point x="2040.9515151699197" y="2671.4868638519692"/>
+            <y:Point x="2055.093650793651" y="2657.344728228238"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e149" source="n29" target="n23">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-redis-client)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-17.408447265625" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1183.3302432105654" y="2674.3765580694503"/>
+            <y:Point x="1150.4405489930846" y="2641.4868638519692"/>
+            <y:Point x="765.6568181634135" y="2641.4868638519692"/>
+            <y:Point x="751.5146825396826" y="2627.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e150" source="n29" target="n25">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-stomp)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-22.764892578125" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1177.9737978980654" y="2699.0201127569503"/>
+            <y:Point x="1150.4405489930846" y="2671.4868638519692"/>
+            <y:Point x="461.6536435602389" y="2671.4868638519692"/>
+            <y:Point x="447.51150793650794" y="2657.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e151" source="n29" target="n27">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-mail)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-12.052001953125" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1188.6866885230654" y="2649.7330033819503"/>
+            <y:Point x="1150.4405489930846" y="2611.4868638519692"/>
+            <y:Point x="886.3302308618262" y="2611.4868638519692"/>
+            <y:Point x="872.1880952380952" y="2597.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e152" source="n29" target="n4">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-lang-js)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="14.730224609375" sy="-15.0" tx="36.351151315789366" ty="15.0">
+            <y:Point x="1215.4689150855654" y="2662.0547807257"/>
+            <y:Point x="1251.0368319592963" y="2626.4868638519692"/>
+            <y:Point x="1911.8177850111897" y="2626.4868638519692"/>
+            <y:Point x="1925.9599206349205" y="2612.3447282282386"/>
+            <y:Point x="1925.9599206349205" y="1347.9633628962465"/>
+            <y:Point x="1911.8177850111897" y="1333.8212272725157"/>
+            <y:Point x="1880.1020562586514" y="1333.8212272725157"/>
+            <y:Point x="1865.9599206349205" y="1319.6790916487848"/>
+            <y:Point x="1865.9599206349205" y="792.9897623235045"/>
+            <y:Point x="1415.3965651826093" y="342.4264068711932"/>
+            <y:Point x="1105.5047948760284" y="342.4264068711932"/>
+            <y:Point x="1091.3626592522974" y="328.28427124746213"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e153" source="n29" target="n9">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-jdbc-client)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-9.373779296875" sy="-15.0" tx="-40.5556640625" ty="15.0">
+            <y:Point x="1191.3649111793154" y="2637.4112260382003"/>
+            <y:Point x="1150.4405489930846" y="2596.4868638519692"/>
+            <y:Point x="936.0131673697626" y="2596.4868638519692"/>
+            <y:Point x="921.8710317460317" y="2582.3447282282386"/>
+            <y:Point x="921.8710317460317" y="2273.1419899259363"/>
+            <y:Point x="926.5428571428571" y="2268.470164529111"/>
+            <y:Point x="926.5428571428571" y="2025.4054819894288"/>
+            <y:Point x="953.8642857142858" y="1998.0840534180002"/>
+            <y:Point x="953.8642857142858" y="1821.4354762008543"/>
+            <y:Point x="1044.5555555555557" y="1730.7442063595845"/>
+            <y:Point x="1088.9323590439278" y="1730.7442063595845"/>
+            <y:Point x="1103.0744946676587" y="1716.6020707358537"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e154" source="n29" target="n24">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-bridge-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-25.443115234375" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1175.2955752418154" y="2711.3418901007003"/>
+            <y:Point x="1150.4405489930846" y="2686.4868638519692"/>
+            <y:Point x="401.41832609992144" y="2686.4868638519692"/>
+            <y:Point x="387.2761904761905" y="2672.3447282282386"/>
+            <y:Point x="387.2761904761905" y="2435.418816769905"/>
+            <y:Point x="365.2845238095238" y="2413.4271501032385"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e155" source="n29" target="n2">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-lang-groovy)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-36.156005859375" sy="-15.0" tx="-54.673713235294144" ty="15.0">
+            <y:Point x="1164.5826846168154" y="2760.6289994757003"/>
+            <y:Point x="1150.4405489930846" y="2746.4868638519692"/>
+            <y:Point x="31.546103877699203" y="2746.4868638519692"/>
+            <y:Point x="17.403968253968255" y="2732.3447282282386"/>
+            <y:Point x="17.403968253968255" y="792.9897623235045"/>
+            <y:Point x="393.82518808254844" y="416.56854249492426"/>
+            <y:Point x="517.6043892362129" y="416.56854249492426"/>
+            <y:Point x="531.746524859944" y="402.4264068711932"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e156" source="n29" target="n1">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-hazelcast)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="33.477783203125" sy="-15.0" tx="12.385498046875" ty="15.0">
+            <y:Point x="1234.2164736793154" y="2748.3072221319503"/>
+            <y:Point x="1251.0368319592963" y="2731.4868638519692"/>
+            <y:Point x="2347.1931818365865" y="2731.4868638519692"/>
+            <y:Point x="2361.3353174603176" y="2717.344728228238"/>
+            <y:Point x="2361.3353174603176" y="2482.344985544707"/>
+            <y:Point x="2299.069861421131" y="2420.0795295055204"/>
+            <y:Point x="2064.708008639604" y="2420.0795295055204"/>
+            <y:Point x="2050.565873015873" y="2405.937393881789"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e157" source="n29" target="n13">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-mongo-embedded-db)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="25.443115234375" sy="-15.0" tx="65.975830078125" ty="15.0">
+            <y:Point x="1226.1818057105654" y="2711.3418901007"/>
+            <y:Point x="1251.0368319592963" y="2686.4868638519692"/>
+            <y:Point x="2137.4066739000787" y="2686.4868638519692"/>
+            <y:Point x="2151.5488095238097" y="2672.344728228238"/>
+            <y:Point x="2151.5488095238097" y="2030.7626248465717"/>
+            <y:Point x="2137.4066739000787" y="2016.6204892228407"/>
+            <y:Point x="2116.86475467135" y="2016.6204892228407"/>
+            <y:Point x="2102.722619047619" y="2002.4783535991096"/>
+            <y:Point x="2102.722619047619" y="1842.9514407766887"/>
+            <y:Point x="2088.580483423888" y="1828.8093051529577"/>
+            <y:Point x="1929.3889610205563" y="1828.8093051529577"/>
+            <y:Point x="1915.2468253968254" y="1814.667169529227"/>
+            <y:Point x="1915.2468253968254" y="1642.4599351121228"/>
+            <y:Point x="1844.7865079365074" y="1571.9996176518048"/>
+            <y:Point x="1805.0519841269838" y="1571.9996176518048"/>
+            <y:Point x="1719.3536078559027" y="1486.3012413807237"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e158" source="n29" target="n15">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-shell)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="6.695556640625" sy="-15.0" tx="17.9462890625" ty="15.0">
+            <y:Point x="1207.4342471168154" y="2625.08944869445"/>
+            <y:Point x="1251.0368319592963" y="2581.4868638519692"/>
+            <y:Point x="1476.2900072334119" y="2581.4868638519692"/>
+            <y:Point x="1490.432142857143" y="2567.344728228238"/>
+            <y:Point x="1490.432142857143" y="2403.2025926045076"/>
+            <y:Point x="1433.2057392943661" y="2345.976189041731"/>
+            <y:Point x="1366.588424686231" y="2345.976189041731"/>
+            <y:Point x="1352.4462890625" y="2331.8340534179997"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e159" source="n29" target="n3">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-lang-ruby)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="-30.799560546875" sy="-15.0" tx="-47.94817708333335" ty="15.0">
+            <y:Point x="1169.9391299293154" y="2735.9854447882003"/>
+            <y:Point x="1150.4405489930846" y="2716.4868638519692"/>
+            <y:Point x="204.4588022903976" y="2716.4868638519692"/>
+            <y:Point x="190.31666666666666" y="2702.3447282282386"/>
+            <y:Point x="190.31666666666666" y="1319.6790916487848"/>
+            <y:Point x="205.31666666666666" y="1304.6790916487848"/>
+            <y:Point x="244.86011263900514" y="1304.6790916487848"/>
+            <y:Point x="711.5494419642857" y="837.9897623235042"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e160" source="n29" target="n8">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-sql-common)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="9.373779296875" sy="-15.0" tx="47.768749999999955" ty="15.0">
+            <y:Point x="1210.1124697730654" y="2637.4112260382"/>
+            <y:Point x="1251.0368319592963" y="2596.4868638519692"/>
+            <y:Point x="1906.460642154047" y="2596.4868638519692"/>
+            <y:Point x="1920.6027777777779" y="2582.3447282282386"/>
+            <y:Point x="1920.6027777777779" y="2150.7626248465717"/>
+            <y:Point x="1895.9599206349205" y="2126.1197677037144"/>
+            <y:Point x="1895.9599206349205" y="1986.6204892228404"/>
+            <y:Point x="1866.8177850111897" y="1957.4783535991096"/>
+            <y:Point x="1339.1639610205561" y="1957.4783535991096"/>
+            <y:Point x="1325.0218253968253" y="1943.3362179753788"/>
+            <y:Point x="1325.0218253968253" y="1697.646118354901"/>
+            <y:Point x="1313.9777777777779" y="1686.6020707358537"/>
+            <y:Point x="1313.9777777777779" y="1511.1869192391068"/>
+            <y:Point x="1283.9777777777779" y="1481.1869192391068"/>
+            <y:Point x="1241.1775522903974" y="1481.1869192391068"/>
+            <y:Point x="1227.0354166666666" y="1467.044783615376"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e161" source="n29" target="n19">
+      <data key="d8"><![CDATA[(vertx-stack : vertx-sync)]]></data>
+      <data key="d10"/>
+      <data key="d11">
+        <y:PolyLineEdge>
+          <y:Path sx="4.017333984375" sy="-15.0" tx="0.0" ty="15.0">
+            <y:Point x="1204.7560244605654" y="2612.7676713507"/>
+            <y:Point x="1251.0368319592963" y="2566.4868638519692"/>
+            <y:Point x="1426.0007215191263" y="2566.4868638519692"/>
+            <y:Point x="1440.142857142857" y="2552.3447282282386"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources/>
+  </data>
+</graphml>
