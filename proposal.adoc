@@ -136,7 +136,7 @@ Each component repository is transferred from the vert-x3 organization to the _e
 
 
 The maintainers of a component should become _Eclipse Vert.x_ committers or a new maintainer will be named and
-contributions will happen via signed pull requests.
+contributions will happen via _signed-off_ pull requests.
 
 Components that won’t be retrofitted (for example obsolete components) will be kept as is, as they can
 still be consumed but no development happens, beside bug fixes (such as security patch).
