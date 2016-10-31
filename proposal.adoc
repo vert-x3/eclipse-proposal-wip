@@ -157,9 +157,9 @@ There are Vert.x project outside of the Vert.x stack:
 * A project removed of the stack for some reason
 * A project that does not have sense to be there (for instance the Vert.x example projects that is a repository of examples)
 
-Projects should either by in the _eclipse-vertx_ repository or in another repository like _vertx-labs_.
+Projects should either by in the _eclipse-vertx_ repository or in another repository like _vertx-extras_.
 
 == New components
 
 New components are developed developed in _Eclipse Vert.x_, either in the _eclipse-vertx_ organization or in the
-_vertx-labs_ organization.
+_vertx-extras_ organization.
