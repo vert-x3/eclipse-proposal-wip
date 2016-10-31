@@ -132,8 +132,7 @@ dependencies, for example the _vertx-core_ dependencies will be migrated first, 
 The maintainers agree on the order of migration and the schedule.
 
 Component migration will likely involve the creation of a Contribution Questionnaire and involve an IP check of the source tree.
-Each component repository is transferred from the vert-x3 organization to the _eclipse-vertx_ organization.
-
+Each component repository is transferred (GitHub repository transfer) from the vert-x3 organization to the _eclipse-vertx_ organization and will retain its assets (issues, stars, etc...).
 
 The maintainers of a component should become _Eclipse Vert.x_ committers or a new maintainer will be named and
 contributions will happen via _signed-off_ pull requests.
